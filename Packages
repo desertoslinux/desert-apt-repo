@@ -313,10 +313,10 @@ Depends: liblightdm-gobject-1-0, python3, python3-gi, python3-pyqt5, pyqt5-dev, 
 Replaces: lightdm-webkit-greeter
 Provides: lightdm-greeter
 Filename: ./desert-lightdm_5.5_amd64.deb
-Size: 4496808
-MD5sum: 16282e0f030b5684d5d50e42f3fdc4ee
-SHA1: 436a83e01a916747122ade90786febccfe688af1
-SHA256: 502b70c9f87adb0313d51116f9be1b23a31027951f6b553f994c1dcd2cee6c7b
+Size: 4496854
+MD5sum: a87093cc6e5799e2b81d844a11a195a7
+SHA1: 1988c3d8a5256c88305253cf1a41abc789ec6a98
+SHA256: e14b5f3290b2a7631063d445e533388a6dde0726ad0de780696dc504df5374eb
 Section: x11
 Priority: optional
 Description: Theme LightDM.
@@ -384,10 +384,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 3811
 Depends: python3, python3-gi, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 4975160
-MD5sum: 8c50994d0a148006f2d0379b358be055
-SHA1: febcc8e8385b80dd7b9cdf54430f95b258f88efe
-SHA256: f2363c49cfcb792c8cf2a240c53ca488955dd5e4620207d7b9f544446eaeb54a
+Size: 4975732
+MD5sum: 1e03458f971660df154148ff5c8ca0bf
+SHA1: ba1988fd4ecf12d4d3903a3688520d802554c3ae
+SHA256: 2137551c2db0d7f0d56bbd736db8607b02ff251f1a27a171faa38cca375d81f8
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
