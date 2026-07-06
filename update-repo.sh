@@ -24,7 +24,7 @@ Origin: $REPO_NAME
 Label: $REPO_NAME
 Suite: $CODENAME
 Codename: $CODENAME
-Date: $(date -u '+%a, %d %b %Y %H:%M:%S %Z')
+Date: $(LC_ALL=C date -u '+%a, %d %b %Y %H:%M:%S %Z')
 Architectures: $ARCHITECTURES
 Components: $COMPONENTS
 Description: Official APT repository for DESERT OS Linux applications
