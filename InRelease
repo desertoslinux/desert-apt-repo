@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: DESERT OS Software Repository
+Label: DESERT OS Software Repository
+Suite: resolute
+Codename: resolute
+Architectures: amd64
+Components: main
+Description: Official APT repository for DESERT OS Linux applications
+MD5Sum:
+ b716c267d30b91996a8bc6106aaf0507 24424 Packages
+ 447836cc29a623f9702745fcb9495417 9031 Packages.gz
+SHA1:
+ 3e485477f9cc1e37974d9a9a7c9398d5fc9186fe 24424 Packages
+ 7ce24721081c611bd4e9206d5f442f1beb03de5e 9031 Packages.gz
+SHA256:
+ a44b75c750f70faafea33bb6c129870dbeec503c6f7f77a939e49dfd3c15fa80 24424 Packages
+ 707c58a90c5aa541420704b6deace447ff7a9aa3f381b19bd0741425912fca4b 9031 Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmpLZUAACgkQue6rFacx
+3RL7Cg/6AqlwbfaVfuGHDKyvWPR+iAdYaGKzj4odnnneOcEKmZt6W8bPwIuJiFXK
+yw3tzwcJEeg962ZHqGnFYJhs/WIwixOr1DvTJxaYJQbCmyx05qHWR0u+XQ1A/chB
+ylVQl5cpuIcKhvfT9smlwvA3aJ/Bt6xxPZy/HfmvXyF/I3aV+DANseYh4Q+i9XL4
+no13Hmgw+pIkTOE6jKKXhg8cv/LTTZbheQj72vsXcoP/IbwDnbMssKNnvDxbIqkS
+10o6BsS1ET/Rr7+gWVqgIpTp240RnSoY9WZJ/f8IF985gh6L2Ib/MU/av6DkURo4
+CIXDRnC4yDyFa5a8ALC/qw2Gk84IyXybaDZybfVAMUemWzLDycfrEySsxt/ByPHZ
+fEvBl/6f9aDoYjQJCqEZ94zQ0UY68EfqQD2ZZAeUKJ7kzDrg7MrpokrmVPoJfNKy
+X51BF0/u8f7KMzcYGi6Mpn+QBa6mTTKJqXioTVLxBEp8u7jJVWlhNH1BgX7muWdg
+FCwlQC5D6MKb4myJ2osqyOUH0KQwrewypcXXCpmJuv7Y1VuGGZbmmSzyCrKKJJYM
+2riF0YSpCMor9pEcG5iV3xeUONbA930+yKMkUOQ0jTv9Qk7O/IkeHB09qQuokCXE
+rr0WrQQtXDnTFm0j6fMZKVTLE/alzlVesLkVtuzvLsFNcPac8Bk=
+=5Nx4
+-----END PGP SIGNATURE-----

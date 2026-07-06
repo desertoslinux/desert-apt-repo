@@ -1,0 +1,629 @@
+Package: coreutils-from-uutils
+Version: 9.9.9-desert
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 9
+Filename: ./coreutils-from-uutils_9.9.9-desert_all.deb
+Size: 676
+MD5sum: 08c9ffcb0693b9380ce31c3a97670d0c
+SHA1: 392761ab70481014e86715f3ec2967e0b16e8a42
+SHA256: f001d3b1c911fd8479466ab31ec3fdb379c3e3a61512ff5b98527f0ee01d4db2
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Description: Dummy package for DESERT OS
+ This package is a placeholder to satisfy build-essential dependencies
+ without installing the actual Rust-based coreutils.
+
+Package: desert-app-plugins
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-app-plugins_5.5_all.deb
+Size: 15692
+MD5sum: 4eff926a8ee884ae0778831624118ba4
+SHA1: 80fcf57e5a3596d03a96e5810ac92bd11c466ebd
+SHA256: 5ac70844a40712c31247d7eb7e026b1eac493427738bdf7f15cf752e080d0605
+Section: x11
+Priority: optional
+Description: Plugins apps for panel XFCE.
+
+Package: desert-builder
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 3338
+Depends: coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, user-setup, discover1 | discover, laptop-detect, syslinux, syslinux-common, isolinux, util-linux, dpkg-dev, python3:any (>= 3.3~), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, plymouth-x11
+Filename: ./desert-builder_5.5_all.deb
+Size: 4148236
+MD5sum: 09d1f07b83591e6a7999a8ea5d99fecf
+SHA1: b09a7e01aa1fd26577c3ff282a5970202c64a5a6
+SHA256: b939ed1c879a4f7d9f581bbdb7707dc846e3f9e6b52a50a62d7923e472ac1afc
+Section: utils
+Priority: optional
+Description: GUI tool for creating a clean bootable system ISO image
+ desert-builder is a graphical utility designed to create a customized,
+ bootable Live CD/USB hybrid ISO image strictly from the system files
+ of the currently running OS.
+ .
+ It builds an entirely clean system environment by completely ignoring
+ all user-specific data, personal settings, home directories, logs,
+ and network configurations. The result is a fresh, redistributable
+ system image that contains only the core operating system files.
+ .
+ Developed specifically for DESERT OS Linux, it includes support for both
+ modern UEFI and legacy BIOS systems, alongside squashfs compression tuning.
+
+Package: desert-calculator
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Depends: python3
+Filename: ./desert-calculator_5.5_all.deb
+Size: 70828
+MD5sum: 49468768fe223bb9cb1d18040cdc7aca
+SHA1: ad222a6d6c72b6712af213bb3955231f4c7b5a05
+SHA256: 4912339c5e51c9755ced0529f7ec21a36fdeb26f51b7aaa061e2c68fbcd56bab
+Section: x11
+Priority: optional
+Description: Simple calculator.
+
+Package: desert-calendar
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Depends: python3
+Filename: ./desert-calendar_5.5_all.deb
+Size: 26962
+MD5sum: ea6f55d8234b65aae0a9048d368ee4ed
+SHA1: 4e5bffc64e2850da071ee049cfcb62763f26231e
+SHA256: b32b77ac48902ec75d1f0ca7487503a2071156244ef6a287c3231e8016f1fe84
+Section: x11
+Priority: optional
+Description: Simple calendar.
+
+Package: desert-cleaner
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 15
+Depends: python3, python3-gi, gir1.2-gtk-3.0
+Filename: ./desert-cleaner_5.5_all.deb
+Size: 149738
+MD5sum: 8293a45ff2fae2249052a2e97aa156a5
+SHA1: 8e42e5b875ff84eceb3a60695dba0610041ce436
+SHA256: 813efb63699a3fa54357a3e1dece4e18633e949f1ceba7d85aaeb35ec5ab2d1a
+Section: utils
+Priority: optional
+Description: Advanced system cleaning utility for DESERT OS Linux
+ desert-cleaner is a comprehensive system maintenance tool designed
+ specifically to free up disk space and optimize system performance.
+ .
+ Key features include:
+  * Clearing application caches and temporary files.
+  * Removing orphaned dependencies and leftover packages.
+  * Safely uninstalling old and unused Linux kernels.
+ .
+ Built natively for DESERT OS Linux, it provides a safe, efficient, and
+ user-friendly way to keep your operating system clean and responsive.
+
+Package: desert-clock
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav
+Depends: libc6 (>= 2.4), libsdl-gfx1.2-5 (>= 2.0.25), libsdl-ttf2.0-0, libsdl1.2debian (>= 1.2.11), libx11-6
+Filename: ./desert-clock_5.5_amd64.deb
+Size: 11880
+MD5sum: b8bab6aee686fa1304a5c3361464ed02
+SHA1: 7348b89f82693fb5a64258a7fe7d14a76c15cd22
+SHA256: 9c8115827a364ecb886c8df6ac65ed355666955f6c0981137149e067c9c6fd30
+Section: misc
+Priority: extra
+Description: Digital Clock Screensaver.
+
+Package: desert-cloud-master
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 7.1
+Depends: python3, python3-gi, gnome-keyring, libsecret-1-dev, rclone, python3-keyrings.alt
+Filename: ./desert-cloud-master_5.5_all.deb
+Size: 15924
+MD5sum: f92124feb768377ea1589c26d84cfda8
+SHA1: bdbe0f424e9e1896d6637fc74298f2574a2b8378
+SHA256: 6ccf0c936daee9d2b195576ca4538c7e44d2c4a10aa13dde08b1ed4d0287e125
+Section: x11
+Priority: optional
+Description: Cloud storage management.
+
+Package: desert-control-center-plugins
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-control-center-plugins_5.5_all.deb
+Size: 22090
+MD5sum: 8752f6a8db6aed6e450e5db30b6d5e77
+SHA1: cc19016bdbf20d96f2e048e97c6ef6a3768a41d2
+SHA256: 93026949578b568f11d488c407e973dffcf3bd10e426361f3f5b3370723faae8
+Section: x11
+Priority: optional
+Description: Plugins control center for panel XFCE.
+
+Package: desert-datetime-plugins
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-datetime-plugins_5.5_all.deb
+Size: 14650
+MD5sum: 997d303f9a3d806f11d3d959c7707f6a
+SHA1: e943c3c5fc27f83571041d08cb7e69f27c33f179
+SHA256: 4051f116c8b8c9eee5f88b0d197f293c3486dc4100fc591b58ca6861fab9fe8b
+Section: x11
+Priority: optional
+Description: Data end time for panel XFCE.
+
+Package: desert-deb-installer
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 250
+Depends: python3 (>= 3.5)
+Filename: ./desert-deb-installer_5.5_all.deb
+Size: 16260
+MD5sum: 5ccf2b21ca27bb5abc201d3f8fd195af
+SHA1: a0a31594dc3b78ab4bcb6237efd92e7c134178a2
+SHA256: 8f33d2b82f0b37fa543f31aae4cf48aaf5552e847f7aa6b0c55e1f735ac15447
+Section: utils
+Priority: optional
+Description: Working with deb packages.
+
+Package: desert-disk-manager
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 15
+Depends: python3, python3-gi, gir1.2-gtk-3.0
+Filename: ./desert-disk-manager_5.5_all.deb
+Size: 116962
+MD5sum: c6ee71f23d64a75ba97c71d5b6277db4
+SHA1: 3daf28717a6070f79e00cd2b7e2981f71e1702c8
+SHA256: 5671b925e4186a634acc81eb4525161bbbe760bfd563b58ef37d951b39a83446
+Section: utils
+Priority: optional
+Description: System and disk status information.
+
+Package: desert-exec-bridge
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 143
+Depends: python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-0
+Filename: ./desert-exec-bridge_5.5_all.deb
+Size: 54346
+MD5sum: 578149d784bc32cfbe06789cced07985
+SHA1: 04cb317cd446c1e0e0f1bd7089c975c9fcac2db6
+SHA256: 4e6bf78701872986cd6f612cc7d982957fdf63056b6b73e59904583b30aa65fc
+Section: misc
+Priority: extra
+Description: Universal execution bridge.
+
+Package: desert-facetimehd
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 467.1
+Depends: dkms (>= 2.1.0.0), libc6-dev, linux-headers-generic | linux-headers
+Filename: ./desert-facetimehd_5.5_amd64.deb
+Size: 472106
+MD5sum: 2fda95aeac6bf3c5e13b96f3e33125fd
+SHA1: f70110803b03104bbe1a634c4bc11b10de9a79b2
+SHA256: bdca63fd5094eaeb6c7073c8309d0b5a27ca7290b9199a6238cfba860983e505
+Section: kernel
+Priority: optional
+Description: Broadcom Facetime HD Camera Driver for MacBook.
+
+Package: desert-global-menu-plugins
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-global-menu-plugins_5.5_all.deb
+Size: 36780
+MD5sum: b8ce263898f0eeb660521ae745f3726d
+SHA1: 417ac383d0b1258cd6a80558d78e141f4060fb2b
+SHA256: 1201960a5dd090ba8f9e654939e8b9bceaf5a8d3ce0520f7bb0a4fa3f7a8e513
+Section: x11
+Priority: optional
+Description: Global menu for panel XFCE.
+
+Package: desert-image-writer
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 166
+Depends: python3
+Filename: ./desert-image-writer_5.5_all.deb
+Size: 156184
+MD5sum: 170786f9cf1ec46dc1011a544fea1671
+SHA1: e623575f5cd4d0d5ccbeeadf03e6a925cfa053a3
+SHA256: a10a4146d98e45947f476b581b5a7a8a8d0367dff967c461f0beb6f1e09f8869
+Section: utils
+Priority: optional
+Description: Graphical utility to write ISO and IMG images to USB drives
+ DESERT Image Writer is a lightweight and reliable GTK3-based application
+ designed to safely burn operating system images onto removable storage
+ devices. It provides a clean, native interface for image deployment.
+ .
+ Features include:
+  * Automatic detection of removable USB drives using lsblk.
+  * Safe auto-unmounting of active partitions via udisksctl before writing.
+  * Reliable backend implementation utilizing the native 'dd' command.
+  * Real-time write progress bar mirroring the actual data transfer.
+  * Desktop notification integration (Notify) for process status and errors.
+  * Secured privilege elevation using pkexec only during the execution phase.
+
+Package: desert-installer
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 9811
+Depends: live-boot, live-tools, locales, python3-parted, gparted, python3-gi, gir1.2-gtk-3.0, python3-cairo, python3-defusedxml, python3-yaml, gettext-base, isoquery, librsvg2-common, parted, dosfstools, console-setup, btrfs-progs
+Filename: ./desert-installer_5.5_all.deb
+Size: 10007568
+MD5sum: ea19c65a7f5a9dc7fb6aacc3a8a0d37d
+SHA1: 709b3bf724c6f09604070f01aefcedd1f6af6802
+SHA256: cda9f767df8a472bbd2aa31993c64c85f073f4ba49eb95e2a8c30bbf5dc4a7a2
+Section: utils
+Priority: extra
+Description: Graphical system installer for DESERT OS
+ DESERT Installer is the official system installation utility for
+ DESERT OS Linux. It provides a user-friendly graphical interface
+ built with GTK3 to guide users through the deployment process.
+ .
+ Key features include:
+  * Automated and manual disk partitioning
+  * Support for Ext4, Btrfs (with subvolumes), and LVM setups
+  * Full LUKS disk encryption integration
+  * UEFI and Legacy BIOS bootloader configuration
+  * Locale, timezone, and interactive keyboard layout setup
+  * User account and password strength validation
+ .
+ This package contains all necessary scripts and resources to
+ deploy DESERT OS from a live USB/CD environment to a local drive.
+
+Package: desert-keyboard-layout
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 1.4
+Filename: ./desert-keyboard-layout_5.5_all.deb
+Size: 1276
+MD5sum: 5a451aec54eaf4aaf49c0b999f724ec4
+SHA1: bd640eb6ae3a5a728d5b84755019a74b5a75ab71
+SHA256: 7fdb7131aa43fbeb5a7cf60ab03ceadaab11cb98c1fda9dced99e9168153a95f
+Section: x11
+Priority: optional
+Description: DESERT Keyboard Layout.
+
+Package: desert-menu-plugins
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-menu-plugins_5.5_all.deb
+Size: 24676
+MD5sum: 3d5930e9ca2eec876047dbd2e2043572
+SHA1: 1e4277546116fb8a3cdd3c58b5160652bcf2879f
+SHA256: c0224cbd47db67885c51e5d7285bdf1a290a3ac61903c5635b27fbb1f77aa2de
+Section: x11
+Priority: optional
+Description: Plugins menu for panel XFCE.
+
+Package: desert-mirror-optimizer
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 15.9
+Depends: python3, python3-gi, gir1.2-gtk-3.0, iputils-ping
+Filename: ./desert-mirror-optimizer_5.5_all.deb
+Size: 117812
+MD5sum: f589677b758db3ec0c8b8586caad73e1
+SHA1: 9b2411b38869a591172d4e64b973b0a79bf9c517
+SHA256: 845cf66771e07e01f6b9d6cc7cff9ba56eeb9a7ab55981dfd9746161a44d25b7
+Section: x11
+Priority: optional
+Description: Mirror optimizer.
+
+Package: desert-pen
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 135
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libqt5svg5, scrot
+Filename: ./desert-pen_5.5_amd64.deb
+Size: 59384
+MD5sum: e2e7cda0f62ddc1b9c2c73298764c355
+SHA1: b3f38b0fddd1e6bc986fdca592f89de32ed911c8
+SHA256: 9c82b6c9eb14ac6deeca4abe86442b45ed30e3be5ce66381d7dbb206bf4052ed
+Section: education
+Priority: optional
+Description: Drawing on the screen.
+
+Package: desert-search
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-search_5.5_all.deb
+Size: 14144
+MD5sum: 74ee0bbc4fff93496deb9bb093b151f2
+SHA1: 235d152ac28b8670030e8e54719a3dc8752229db
+SHA256: 139f851abb8cd918c4fa7d338003756de5162bd6720027eaaa70ee7029a12079
+Section: x11
+Priority: optional
+Description: Search for panel XFCE.
+
+Package: desert-settings
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 3811
+Depends: python3, python3-gi, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
+Filename: ./desert-settings_5.5_all.deb
+Size: 4975160
+MD5sum: 8c50994d0a148006f2d0379b358be055
+SHA1: febcc8e8385b80dd7b9cdf54430f95b258f88efe
+SHA256: f2363c49cfcb792c8cf2a240c53ca488955dd5e4620207d7b9f544446eaeb54a
+Section: utils
+Priority: extra
+Description: System settings center for DESERT OS
+ desert-settings is a comprehensive, intuitive control center built
+ specifically for DESERT OS Linux. Written in Python and GTK3, it provides
+ a unified interface to easily manage core system configurations and customize
+ the XFCE desktop environment.
+ .
+ Key features include:
+  * System Info: View hardware, OS, and kernel details.
+  * Wallpapers: Manage static backgrounds and dynamic video wallpapers (mp4)
+    with Plymouth boot screen integration.
+  * Themes: One-click toggle between Light and Dark system modes, plus granular
+    control over GTK, Icon, Cursor, and Notification (notifyd) themes.
+  * Display & Fonts: Control brightness, UI scaling (DPI), font rendering
+    (hinting/subpixel), and element sizes (icons/cursors).
+  * Sound: Manage audio input/output devices and volume levels.
+  * Hot Corners: Configure automated actions for screen corners.
+  * Tweaks: Widgets, startup sound effects, dynamic workspaces,
+    and switch compositors (Picom/XFWM4) on the fly.
+
+Package: desert-software
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 158
+Depends: python3, python3-gi, python3-apt, gir1.2-gtk-3.0, gir1.2-appstream-1.0, gir1.2-pango-1.0, gir1.2-gdkpixbuf-2.0, flatpak
+Filename: ./desert-software_5.5_all.deb
+Size: 362222
+MD5sum: d3747b6c363b3e4decef9dc33b5553e4
+SHA1: 79f4779715fe93fc36603b43a1bd7b0364160ded
+SHA256: 279be83f746205314c66cdb3835f11c235be8e0fef9bb300e6a406e226c6bc85
+Section: utils
+Priority: optional
+Description: Advanced Software Center for DESERT OS
+ A modern and fast graphical interface for managing system packages
+ and Flatpak applications. Specifically designed for DESERT OS,
+ providing a seamless experience for software installation,
+ removal, and updates.
+ .
+ Key features:
+  * Full integration with APT and AppStream.
+  * Native support for Flatpak applications.
+  * Dynamic localization support (gettext).
+  * Smooth UI transitions and category-based browsing.
+  * Real-time update monitoring.
+
+Package: desert-templates
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-templates_5.5_all.deb
+Size: 30252
+MD5sum: cfecd677249600aafe2722f9b7c46790
+SHA1: 5be9af4d79582f6b23a884aa7391c1b076f2a1f8
+SHA256: 834a08cee6fd3636712abbf061ee25406fdc57a6227caf36262c3cc6259cbd13
+Section: x11
+Priority: optional
+Description: Copies file templates into the Templates folder.
+
+Package: desert-timezone
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-timezone_5.5_all.deb
+Size: 114772
+MD5sum: 3d5c8fde709f65a0a86f763b93bc4438
+SHA1: bfb0800c54fbb59c86178d856c122418a9490408
+SHA256: 2c968cc638064bbfd55c960060f9f2bcdc7fde4306ddf7d0dd86ee2ad74450eb
+Section: x11
+Priority: optional
+Description: Settings timezone/language.
+
+Package: desert-touch
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 419
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.68.0), libgtk-3-0 (>= 3.19.12), libinput10 (>= 0.21.0), libpugixml1v5 (>= 1.4), libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6
+Filename: ./desert-touch_5.5_amd64.deb
+Size: 134320
+MD5sum: 71caa9b181a9d3e3f58d8195518dbccb
+SHA1: d5ddbc3eeb4b671ac4552042e13fa73b429766b4
+SHA256: 7e7d6da00730a208d00ff42628e9a54c08ee6e1707111d675e6ed906ea82f90c
+Section: misc
+Priority: optional
+Description: Gesture control.
+
+Package: desert-update-notifier
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 3
+Depends: aptitude, libnotify-bin, alsa-utils, gettext
+Filename: ./desert-update-notifier_5.5_all.deb
+Size: 3652
+MD5sum: 6cc1a9a3636b783b4477abf0a09408e8
+SHA1: 0f34e2a222f215a7d6c7786c4dd4fd627615c97f
+SHA256: e0d6089cbce16571a50c29b4ee4e56206b2063bb095d56e10135612615e08758
+Section: x11
+Priority: optional
+Description: Update notification service.
+
+Package: desert-user-admin
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-user-admin_5.5_all.deb
+Size: 23594
+MD5sum: 51533d8471fc91635ff96af6fb88484c
+SHA1: 8f75ceeec298a2908c467aac333f0134248a6ee7
+SHA256: c4fc4835f4aef7e1a5485fe5081b57a42c80afbd6e74d9e26b479b5857f2f954
+Section: x11
+Priority: optional
+Description: User management system.
+
+Package: desert-weather-plugins
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Filename: ./desert-weather-plugins_5.5_all.deb
+Size: 236374
+MD5sum: 7b157ba5a2963d51351f995cebea15c0
+SHA1: 827d2b03ee1bc01980c1a8cd00ccd4efcd05bf89
+SHA256: 1f113421c3d4904ae7768f929d07a18fc06e0dbab2d1b964f4150c31bb86fc8f
+Section: x11
+Priority: optional
+Description: Plugins weather for panel XFCE
+ .
+ Key features include:
+  * Automatic location detection based on IP address with fallbacks for network
+    or connection errors.
+  * Live geographic search with a custom GtkHeaderBar integration for immediate
+    manual city configuration.
+  * Interactive expandable popup window showing current temperature, wind speed,
+    humidity, atmospheric pressure, and weather status icons.
+  * Multi-day extended forecast structure with detailed morning, noon, and evening
+    predictions.
+  * Full localization support with persistent GKeyFile configuration management
+    and metric/imperial unit toggling.
+
+Package: desert-welcome
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 320
+Depends: python3
+Breaks: desert-welcome
+Filename: ./desert-welcome_5.5_all.deb
+Size: 141664
+MD5sum: dbd2939bdd30ec040bb11030656d4cec
+SHA1: f2e48c203e0773ad86ba3222fbb1b47b852a7166
+SHA256: 4814ed1b97609698311a9ff8dc02c9225a2b8b203685ae7f185686afabfe5644
+Section: utils
+Priority: optional
+Description: System setup at startup.
+
+Package: fingwit
+Version: 1.0.8-desert
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 382
+Depends: python3, python3-gi, python3-pam, python3-setproctitle, gir1.2-xapp-1.0 (>= 2.5.0), libpam-fprintd, dconf-gsettings-backend | gsettings-backend, libpam-fingwit (= 1.0.8-desert)
+Recommends: xapp-symbolic-icons
+Filename: ./fingwit_1.0.8-desert_all.deb
+Size: 41598
+MD5sum: 5b71550ec23607bd45213375bc15a15b
+SHA1: 5dc510ac92bdb4346a1acfc7ff5de8ade4ebda18
+SHA256: ddfc2d11b8145b8205a8a95a0e0391be4350b324784be70b84f06413b77cd982
+Section: misc
+Priority: optional
+Description: Fingerprint Configuration Tool
+ Utility application used to configure fingerprint authentication.
+
+Package: libpam-fingwit
+Source: fingwit
+Version: 1.0.8-desert
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 39
+Depends: libc6 (>= 2.14), libpam0g (>= 0.99.7.1), python3, python3-gi, fprintd
+Filename: ./libpam-fingwit_1.0.8-desert_amd64.deb
+Size: 5964
+MD5sum: 9b1244d14a27312481ebf14e828e3e13
+SHA1: 2c0b3043adcb97ded5b4d3421aa662f995bab764
+SHA256: bade6fc23d74ac04d76da30a4598297234ef9e88434cae70d05d86bbfe18d4e3
+Section: misc
+Priority: optional
+Description: Smart PAM module for fingerprint authentication
+ This PAM module is used in combination with pam_fprintd.so.
+ .
+  * It returns PAM_AUTHINFO_UNAVAIL when fprintd should be skipped (ssh sessions, login with encrypted home dirs..)
+  * It returns PAM_IGNORE when auth can be performed by fprintd.
+
+Package: neofetch
+Version: 5.0-desert
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 355
+Recommends: chafa, caca-utils, jp2a, libsixel-bin, w3m-img, pciutils
+Filename: ./neofetch_5.0-desert_all.deb
+Size: 69092
+MD5sum: a0c1c99d2c7c98042dcc776cca3bb96f
+SHA1: ffbc2339963271d84a03e955f9449a7edb0ad434
+SHA256: 64de6f7b076ae898ce5063d447ee1abd1960780cb3605615025af642d6925d89
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows Linux System Information with Distribution Logo.
+
+Package: xdg-desktop-portal
+Version: 5.0-desert
+Architecture: amd64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2166
+Depends: bubblewrap, default-dbus-session-bus | dbus-session-bus, fuse3, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, init-system-helpers (>= 1.52), libc6 (>= 2.38), libfuse3-4 (>= 3.17.2), libgdk-pixbuf-2.0-0 (>= 2.30.1), libglib2.0-0t64 (>= 2.83.0), libgstreamer-plugins-base1.0-0 (>= 1.4.0), libgstreamer1.0-0 (>= 1.0.0), libgudev-1.0-0 (>= 146), libjson-glib-1.0-0 (>= 1.5.2), libpipewire-0.3-0t64 (>= 0.3.1), libsystemd0
+Recommends: librsvg2-common
+Filename: ./xdg-desktop-portal_5.0-desert_amd64.deb
+Size: 438090
+MD5sum: 8df2de292e93196caed7616dda6d4db3
+SHA1: 43a560806d9e635ec9044678ce917029034ff15c
+SHA256: 0fdb480c9a685072e554b0d6473b41be41077071768f1c1442432fbce6f12adf
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://flatpak.github.io/xdg-desktop-portal/
+Description: Desktop integration portal for Flatpak for DESERT.
+
+Package: xfwm4
+Version: 4.20.0-desert
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2996
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.5.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.7), libwnck-3-0 (>= 2.91.6), libx11-6 (>= 2:1.2.99.901), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxfixes3 (>= 1:4.0.1), libxinerama1 (>= 2:1.1.4), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.2.99.3), libxrender1 (>= 1:0.9.12), libxres1 (>= 2:1.2.1)
+Recommends: librsvg2-common
+Suggests: xfce4
+Provides: x-window-manager
+Filename: ./xfwm4_4.20.0-desert_amd64.deb
+Size: 1041676
+MD5sum: d11388b0305073a61ce10e2f36864621
+SHA1: 391ebdf35581434c0667f00d4d3c0567e26ac8bc
+SHA256: ba7a71ded2c74138893af8f0061748cf725ae02e5726fb01535b432ff8eb34ac
+Section: xfce
+Priority: optional
+Homepage: https://docs.xfce.org/xfce/xfwm4/start
+Description: window manager of the Xfce project
+ This package contains xfwm4 which is the window manager for Xfce4.  It is
+ designed to run with the rest of Xfce4 but makes a capable window manager
+ for GNOME or KDE.
+ .
+ Install xfwm4 if you want a small, resource saving window manager which
+ complies to the standards defined at http://www.freedesktop.org/. Without
+ xfce4 installed this only gives you a window manager not the full
+ environment.
+
