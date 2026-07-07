@@ -192,6 +192,25 @@ Section: utils
 Priority: optional
 Description: System and disk status information.
 
+Package: desert-dynamic-cursor
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 20
+Depends: libx11-6, xfconf
+Filename: ./desert-dynamic-cursor_5.5_all.deb
+Size: 3496
+MD5sum: c5d686c270633baf174952c3619f664c
+SHA1: 5a7718935b91259b89f0c7f2f9a9a5d2efff4278
+SHA256: 95cfb58bf7b1f7c7c3ae2dcc2eb9943acbeadc4383660bd59b94858c85b2cd01
+Section: x11
+Priority: optional
+Description: Dynamic cursor resizing utility on mouse shake
+ This utility monitors mouse pointer speed via X11 and dynamically
+ increases the cursor size when shaken.
+ It automatically integrates with the XFCE desktop environment by
+ adjusting Gtk/CursorThemeSize via xfconf.
+
 Package: desert-exec-bridge
 Version: 5.5
 Architecture: all
