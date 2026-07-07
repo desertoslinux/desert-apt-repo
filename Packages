@@ -199,10 +199,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 20
 Depends: libx11-6, xfconf
 Filename: ./desert-dynamic-cursor_5.5_all.deb
-Size: 3496
-MD5sum: c5d686c270633baf174952c3619f664c
-SHA1: 5a7718935b91259b89f0c7f2f9a9a5d2efff4278
-SHA256: 95cfb58bf7b1f7c7c3ae2dcc2eb9943acbeadc4383660bd59b94858c85b2cd01
+Size: 3492
+MD5sum: 44984ef3196eb762121d994d75b31a1d
+SHA1: 7dbd29d5d906fbf7ef6ec1e928eeede3cb6daaa0
+SHA256: 8772ad3bd82b810ebc1cb4e1c4573b0247c02ac5109b1e40693eb342e702be0c
 Section: x11
 Priority: optional
 Description: Dynamic cursor resizing utility on mouse shake
