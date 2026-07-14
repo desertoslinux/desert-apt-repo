@@ -556,10 +556,10 @@ Installed-Size: 320
 Depends: python3
 Breaks: desert-welcome
 Filename: ./desert-welcome_5.5_all.deb
-Size: 141664
-MD5sum: dbd2939bdd30ec040bb11030656d4cec
-SHA1: f2e48c203e0773ad86ba3222fbb1b47b852a7166
-SHA256: 4814ed1b97609698311a9ff8dc02c9225a2b8b203685ae7f185686afabfe5644
+Size: 254276
+MD5sum: 4963b62435037fab53897ba81f45559c
+SHA1: 73327106e1edf32ad5c84461f648a51373272b97
+SHA256: ee4ceb57c457a4e819cc6211a34cc665770f93f937f2ed62651715226f3b70e3
 Section: utils
 Priority: optional
 Description: System setup at startup.
