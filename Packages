@@ -403,10 +403,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 4811
 Depends: python3, python3-gi, python3-ephem, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 5009514
-MD5sum: 0745135cd925f1371f823c35bbacb2e4
-SHA1: 7efcd337fd25ba0f9bd845aecfc2d265f26abf9a
-SHA256: 07921bd223d250c3be14e83dac6b98841b4b66c7b1c939ee32afb90e022440f1
+Size: 5009456
+MD5sum: 7a7698a80c7bbd61b84cdb7a32a98e7f
+SHA1: 68b72c5e1ea24c29302d8362e05613d32596ed94
+SHA256: 1e3f685468f8e412566e9bf504d197f920f69caaddd367a00b8e9596af7d6bf7
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
