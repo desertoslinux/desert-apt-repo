@@ -35,10 +35,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 3338
 Depends: coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, user-setup, discover1 | discover, laptop-detect, syslinux, syslinux-common, isolinux, util-linux, dpkg-dev, python3:any (>= 3.3~), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, plymouth-x11
 Filename: ./desert-builder_5.5_all.deb
-Size: 4148236
-MD5sum: 09d1f07b83591e6a7999a8ea5d99fecf
-SHA1: b09a7e01aa1fd26577c3ff282a5970202c64a5a6
-SHA256: b939ed1c879a4f7d9f581bbdb7707dc846e3f9e6b52a50a62d7923e472ac1afc
+Size: 4148578
+MD5sum: 70eba6ab5619c82d993dbc0a1343a0ec
+SHA1: dcb8be1d251868ae2ceb53b5985c89099a8c3f77
+SHA256: a673c97a8fd680fa4f8a83b9ea566c0e7c432541a4dd52cb287e9882009a2b42
 Section: utils
 Priority: optional
 Description: GUI tool for creating a clean bootable system ISO image
