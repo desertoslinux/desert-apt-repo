@@ -74,13 +74,17 @@ Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Depends: python3
 Filename: ./desert-calendar_5.5_all.deb
-Size: 26962
-MD5sum: ea6f55d8234b65aae0a9048d368ee4ed
-SHA1: 4e5bffc64e2850da071ee049cfcb62763f26231e
-SHA256: b32b77ac48902ec75d1f0ca7487503a2071156244ef6a287c3231e8016f1fe84
+Size: 27120
+MD5sum: 8f33b39383ba19421b07bc211bbc942c
+SHA1: 15f10f4caeb0a288e7efd9214805c8fd7b8a2eda
+SHA256: 228da61e7ac3d9cc21e7885a0899eae6d45a11408a10a46388b101e5b823d7cd
 Section: x11
 Priority: optional
-Description: Simple calendar.
+Description: Simple calendar
+ DESERT Calendar is a lightweight and intuitive calendar application designed
+ specifically for DESERT OS Linux. It provides a clean user interface to
+ navigate through months and years, manage personal schedules, and seamlessly
+ create, view, or delete local events with reminders.
 
 Package: desert-cleaner
 Version: 5.5
