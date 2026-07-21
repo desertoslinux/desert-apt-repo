@@ -20,13 +20,17 @@ Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Filename: ./desert-app-plugins_5.5_all.deb
-Size: 15692
-MD5sum: 4eff926a8ee884ae0778831624118ba4
-SHA1: 80fcf57e5a3596d03a96e5810ac92bd11c466ebd
-SHA256: 5ac70844a40712c31247d7eb7e026b1eac493427738bdf7f15cf752e080d0605
+Size: 16100
+MD5sum: 101635ace53e8148caeb7b0d0b50d18e
+SHA1: 7f079d1132b2128518283050fc786a83e1a4ae45
+SHA256: 49e690937dbf75912e1ea69f85b79e171f4a49a39e7527df84c910765c5905f8
 Section: x11
 Priority: optional
-Description: Plugins apps for panel XFCE.
+Description: Plugins application launcher for panel XFCE
+  A lightweight and high-performance fullscreen application menu plugin
+  built with Vala and GTK3 for DESERT OS. Features RAM caching for instant
+  popup display, automatic desktop entry monitoring, smooth transparency,
+  and real-time application filtering.
 
 Package: desert-builder
 Version: 5.5
