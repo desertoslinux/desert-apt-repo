@@ -443,10 +443,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 158
 Depends: python3, python3-gi, python3-apt, gir1.2-gtk-3.0, gir1.2-appstream-1.0, gir1.2-pango-1.0, gir1.2-gdkpixbuf-2.0, flatpak
 Filename: ./desert-software_5.5_all.deb
-Size: 362222
-MD5sum: d3747b6c363b3e4decef9dc33b5553e4
-SHA1: 79f4779715fe93fc36603b43a1bd7b0364160ded
-SHA256: 279be83f746205314c66cdb3835f11c235be8e0fef9bb300e6a406e226c6bc85
+Size: 325216
+MD5sum: d4a5c4395cda86d6398d5f85cebbce8b
+SHA1: 15044df118713f3683542047131e25e87089473d
+SHA256: b15e6f2e138131391a292e1a139edaf28714005a39ebaa75653b04fb3df9ec48
 Section: utils
 Priority: optional
 Description: Advanced Software Center for DESERT OS

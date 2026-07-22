@@ -5,32 +5,32 @@ Origin: DESERT OS Software Repository
 Label: DESERT OS Software Repository
 Suite: resolute
 Codename: resolute
-Date: Tue, 21 Jul 2026 17:40:06 UTC
+Date: Wed, 22 Jul 2026 07:36:41 UTC
 Architectures: amd64
 Components: main
 Description: Official APT repository for DESERT OS Linux applications
 MD5Sum:
- cc1cda3c42c39c424a9e26dd073860f8 26368 Packages
- 766f2ec73d1ae71854e99ccee01fb7d1 9711 Packages.gz
+ 593b378d49bd4dd2cf28d760ee1adc12 26368 Packages
+ 4eb82042345806f02659ee45c6586ff1 9708 Packages.gz
 SHA1:
- adc30e418a69c698b4ef52a4c47988f158f15c4a 26368 Packages
- 8fa10f5c1125e3216afb3aed25a3490d6651a0d0 9711 Packages.gz
+ d75231e1ca4da1e85730263fd6255de383a0d49f 26368 Packages
+ 85a20fe4455ed44de360a49ceae404c50ab1301c 9708 Packages.gz
 SHA256:
- e3ac1e2ca670e5a0def3aa09e6a1bea1bc2e8d6ff4849aae4d7c603ef5b44255 26368 Packages
- 48bc84f4abab6e71a7ed9a65880ebdd12c9d8790eba7809c176643499a305f36 9711 Packages.gz
+ 9ddb1f079fd0fcb93aeb24b143484133ac19403a777ebe05b15ae0f9e095fc88 26368 Packages
+ f8a635ddf4ef02a3021d97389b80a0de2257a26fbdb27b9538b8b0016a6918ab 9708 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmpfrvYACgkQue6rFacx
-3RINsw/8Dsw6SpkAk02M5dEOe+QqKhU64JCF70CfwPt0loMvbq47XwSFqMff6eZ3
-mWnFNSCqfc4G5MiCommRs1R3p3msTHVBlUcG4zUlgi6LcHMZrPyVZI7TrZmb7cKO
-PZP8E77mcRgF3BIo2GCmVZ/rN3o1KGWjif+VdSayVTtVcvb6KgK5uKSAXrvtnrcj
-XAvx79nvXuiOKzwPe4NCEsohBOm1LcY5paTfmMgjWYOolvXKuY+syWBHNMQXPsnW
-FSxxdv3z2s4if3uWIn8nWvbwavD0mdVS4Ziz/vQ3jhBkaCoymoY64ktjNTwxnVCY
-4HTmKecRQiN0u4nOohKvLr3h9CAtTb7fyaIkFQmzO+ROTTa2UjBVsULN98C/LSHH
-0ghbRwI7ptGpyreRhvfgkhXd0XFeI03w5Sm+521qbRhDh2XCT9VucITXDgff4z3D
-XlDRts1x9WdQlUwX7PBB2QQIec3c6sSJFRHVwiio/MSjr7BgoyAW3K3AcXrLi7nf
-wEOukjABu7FXQ8sTvzQBgkNaAqP5Q2oOQjLbyUIClOB35xapQHQK9LG+4s7SRLym
-22QsR8cParn867M99QUyHURFlMdZngfXMhVD960xyJ+qFJSznx277FxU8H6LylUL
-5BDl1wChKvdlac9EVYeNTx78lLITu9twl7Exaxy6eIws33btt4E=
-=HCIU
+iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmpgcwkACgkQue6rFacx
+3RIHOhAAqBEQD+VSPtVHwpo/kSDMeRiPPUsOniADvVvAfFIF+Ai/svWR+mqcBUw5
+8H5k0l2xLXCWw+dkHrpN2enm8k2Akmu1AGWUQB/8cP/nKwB5rS87L4YY5vu0qmNB
+yFB5Qa/MwA7JQE4W1HoXm1ekeuE6NzgKCFCBAdK38+KmcDI+6lzwmebsxUV7StMT
+ueSYLlXdz3dBjc6nnM2uQlSH89omQTyNs1q9Km9cYobQxDptc0xQLxsWdAb45Fyx
+r6bW+czVe4ERx/WuXhHjBIIvl/KOezVDVdGvxlua7DpgN7VEqgO+20qlI1aeJHey
+vSfEdNjnQHzF9px9GH28FljXXbghceTC+XRrLfyW5qtwvRlq0c9gyW38KTMTV+EW
+Ickh50xLScwlhClDkH3XKiEJ/3Rf+sk+rnifZlbwjACsE77U1J6O7kUsPR7IJvOa
+1WU417KrbreZxzqkXl+DZ0y4rqlL4tqnnrOoAoZAszk2Te3EvYGT8y5cuMgNLEmp
+le+i1weypNYx/IdJPns5vtT8GNuHxHw5JoctSuYeVzfmFd2nmfU6RG1pUPHPwIGo
+7ugP8wW8Zunw+Zb5lN+AIhlwjI1c3/STYGU9MSMbbmCfQRYb5ut6gcz3qaWkyAC/
+ZbY1h2W/D1lP2o3HnSdrxEfMGuDoqO1ToQUCg67Cv0iP0uklO90=
+=VEK5
 -----END PGP SIGNATURE-----
