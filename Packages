@@ -411,10 +411,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 4811
 Depends: python3, python3-gi, python3-ephem, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 5009302
-MD5sum: 5e1629f8042df6cd4c7e91386f8e679a
-SHA1: f571ffdec44b3462cbef7650fbc65e05933f138d
-SHA256: 69afa9e5ff2549cff02e3618ebd60765db03ea28ce746918017b0392769dc6d8
+Size: 5009394
+MD5sum: 0dae83839dfb7e694c5c17ea18f8f807
+SHA1: 743afaadf22b4dfa3f78f0c4bf0a8b4d6949c648
+SHA256: 4ff9ef5637fd0f0ab2dc5ceb95b18c96e4b7f4dc57c792472bdbc61abdb69919
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
@@ -522,14 +522,18 @@ Package: desert-user-admin
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 23
 Filename: ./desert-user-admin_5.5_all.deb
-Size: 23594
-MD5sum: 51533d8471fc91635ff96af6fb88484c
-SHA1: 8f75ceeec298a2908c467aac333f0134248a6ee7
-SHA256: c4fc4835f4aef7e1a5485fe5081b57a42c80afbd6e74d9e26b479b5857f2f954
+Size: 23828
+MD5sum: 129484010baa7d08ab8862b8312e6b3c
+SHA1: de53f57bde151da70e82a202242f45f1553f1755
+SHA256: e8b5607ca6519c9c985a260d8f661dd64be9c54e8d15c689e578e8059f041b20
 Section: x11
 Priority: optional
-Description: User management system.
+Description: User account and group management utility for DESERT OS
+ Lightweight GTK3 graphical interface for managing system users, changing
+ user passwords, configuring privilege groups, and setting up autologin.
+ Specifically designed for DESERT OS XFCE desktop environment.
 
 Package: desert-weather-plugins
 Version: 5.5
