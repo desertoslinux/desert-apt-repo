@@ -466,12 +466,12 @@ Package: desert-sounds
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 2692
+Installed-Size: 932
 Filename: ./desert-sounds_5.5_all.deb
-Size: 2691948
-MD5sum: 3bb8c68bcb319900e38fd1c0897351ca
-SHA1: 179227eebcc6421fe0a3bc9d919d78f1e2953bf6
-SHA256: e437831c09a02bb19a43618f77a4a6c20dd0715dbe1cc5d57ba80ee62dc61f34
+Size: 572794
+MD5sum: a98f0f93c03223805e8cbd8c8bb03c9b
+SHA1: 3a247fc8d59e6e411498f347975dd5742d4546f2
+SHA256: 1ab08689ce35a571f36ed64aea1b10927b318cda4740fb61da5cdf163bb769fc
 Section: x11
 Priority: optional
 Description: DESERT sounds themes.
