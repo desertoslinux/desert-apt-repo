@@ -98,9 +98,9 @@ Installed-Size: 69
 Depends: python3, python3-gi, gir1.2-gtk-3.0, desert-sounds, libgsound0t64
 Filename: ./desert-cleaner_5.5_all.deb
 Size: 19760
-MD5sum: f4f9328a183ea96561efa37870a18f45
-SHA1: e3eb23969aa4afee629667a30052051b2cbc5cc3
-SHA256: f501faa4260972b5e0a9ed3ce99c8616c5a98f019e07227bd38e448b170f45b8
+MD5sum: eed63277237399562d5c3c484da5d818
+SHA1: b0352196f70f1cfeedfd3aa8aae917d3615a816a
+SHA256: 46ec0166b1cef1eabafbc0428fdbb14d6263863acd67002f19376a56a07485df
 Section: utils
 Priority: optional
 Description: Advanced system cleaning utility for DESERT OS Linux
