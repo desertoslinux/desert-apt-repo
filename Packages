@@ -94,13 +94,13 @@ Package: desert-cleaner
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 15
-Depends: python3, python3-gi, gir1.2-gtk-3.0
+Installed-Size: 69
+Depends: python3, python3-gi, gir1.2-gtk-3.0, desert-sounds, libgsound0t64
 Filename: ./desert-cleaner_5.5_all.deb
-Size: 149738
-MD5sum: 8293a45ff2fae2249052a2e97aa156a5
-SHA1: 8e42e5b875ff84eceb3a60695dba0610041ce436
-SHA256: 813efb63699a3fa54357a3e1dece4e18633e949f1ceba7d85aaeb35ec5ab2d1a
+Size: 19760
+MD5sum: f4f9328a183ea96561efa37870a18f45
+SHA1: e3eb23969aa4afee629667a30052051b2cbc5cc3
+SHA256: f501faa4260972b5e0a9ed3ce99c8616c5a98f019e07227bd38e448b170f45b8
 Section: utils
 Priority: optional
 Description: Advanced system cleaning utility for DESERT OS Linux
@@ -461,6 +461,20 @@ Description: Advanced Software Center for DESERT OS
   * Dynamic localization support (gettext).
   * Smooth UI transitions and category-based browsing.
   * Real-time update monitoring.
+
+Package: desert-sounds
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 2692
+Filename: ./desert-sounds_5.5_all.deb
+Size: 2691948
+MD5sum: 3bb8c68bcb319900e38fd1c0897351ca
+SHA1: 179227eebcc6421fe0a3bc9d919d78f1e2953bf6
+SHA256: e437831c09a02bb19a43618f77a4a6c20dd0715dbe1cc5d57ba80ee62dc61f34
+Section: x11
+Priority: optional
+Description: DESERT sounds themes.
 
 Package: desert-templates
 Version: 5.5
