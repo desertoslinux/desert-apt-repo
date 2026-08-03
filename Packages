@@ -95,12 +95,13 @@ Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 69
-Depends: python3, python3-gi, gir1.2-gtk-3.0, desert-sounds, libgsound0t64
+Depends: python3, python3-gi, gir1.2-gtk-3.0, libgsound0t64
+Recommends: desert-sounds
 Filename: ./desert-cleaner_5.5_all.deb
-Size: 19760
-MD5sum: eed63277237399562d5c3c484da5d818
-SHA1: b0352196f70f1cfeedfd3aa8aae917d3615a816a
-SHA256: 46ec0166b1cef1eabafbc0428fdbb14d6263863acd67002f19376a56a07485df
+Size: 22170
+MD5sum: cf7136ff04a82c4c238026f72fa11bfd
+SHA1: b9d942e916e8ff07b8ab74101a125d6cc8d2d6d3
+SHA256: a96e31d08eea27c45964e1c7fdf7d6eb44c2f07cc1ebe29d27d2e19698f72298
 Section: utils
 Priority: optional
 Description: Advanced system cleaning utility for DESERT OS Linux
@@ -108,8 +109,10 @@ Description: Advanced system cleaning utility for DESERT OS Linux
  specifically to free up disk space and optimize system performance.
  .
  Key features include:
-  * Clearing application caches and temporary files.
-  * Removing orphaned dependencies and leftover packages.
+  * Clearing browser caches (Chromium, Firefox, Chrome, Brave, Opera, Yandex).
+  * Cleaning Flatpak application caches and removing unused runtimes.
+  * Clearing application caches, thumbnails, and temporary system files.
+  * Removing orphaned dependencies and leftover package configurations.
   * Safely uninstalling old and unused Linux kernels.
  .
  Built natively for DESERT OS Linux, it provides a safe, efficient, and
