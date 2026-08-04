@@ -151,12 +151,12 @@ Package: desert-control-center-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 146
+Installed-Size: 154
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 35010
-MD5sum: 78ecc3b363fb23cd0e831506a9ecc72f
-SHA1: cf7f8f11f89ed3d9465c234cc02e7f0d193d4633
-SHA256: 5263b6bdc74bb9ecaaeb01246d7a58763446a7b912eaaf408102c2d0590985af
+Size: 36246
+MD5sum: 5702efda78180ba76dbae8f4cc7366f8
+SHA1: 3ddb8167c74f9e44cd3cc55fca4c876d30ad024a
+SHA256: 27a91b515bd670350fa9f4779df8e162b8ebadf9a3c81fa6348cb170edfb76c6
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
