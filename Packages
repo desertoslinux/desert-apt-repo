@@ -151,11 +151,12 @@ Package: desert-control-center-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 146
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 34992
-MD5sum: 4273198c06498140e2c89b425e337795
-SHA1: bd0720847cc0dd5aad1cd7eee35a9765d8f6ccb3
-SHA256: 38d1737a900f6e1c8ba81b6264725c642917a38a2d78b9e535c3aeaeafa318a2
+Size: 35010
+MD5sum: 78ecc3b363fb23cd0e831506a9ecc72f
+SHA1: cf7f8f11f89ed3d9465c234cc02e7f0d193d4633
+SHA256: 5263b6bdc74bb9ecaaeb01246d7a58763446a7b912eaaf408102c2d0590985af
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
@@ -360,11 +361,12 @@ Package: desert-menu-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 97
 Filename: ./desert-menu-plugins_5.5_all.deb
-Size: 24932
-MD5sum: deaf63d1525dfba849264cb8bc0e9091
-SHA1: 45b6664a417335bff2986a35b619c91cf7e424a0
-SHA256: 585d52ce7701f0f2f399c7a29f66266856fd1e89586a95e6b6a70becb6dd8a10
+Size: 24950
+MD5sum: 6b27a76b386d6227bb95f1ea92880724
+SHA1: 67ba64e386a176fcdcebe3fa84cec2b15cd91058
+SHA256: 60853b59b9cb7777c81f700e596339d0952b98f6d0f47a4e051ec040a1adec1a
 Section: x11
 Priority: optional
 Description: Custom application menu and system plugins for XFCE panel
