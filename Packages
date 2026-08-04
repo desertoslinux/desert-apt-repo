@@ -152,13 +152,18 @@ Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 22090
-MD5sum: 8752f6a8db6aed6e450e5db30b6d5e77
-SHA1: cc19016bdbf20d96f2e048e97c6ef6a3768a41d2
-SHA256: 93026949578b568f11d488c407e973dffcf3bd10e426361f3f5b3370723faae8
+Size: 34992
+MD5sum: 4273198c06498140e2c89b425e337795
+SHA1: bd0720847cc0dd5aad1cd7eee35a9765d8f6ccb3
+SHA256: 38d1737a900f6e1c8ba81b6264725c642917a38a2d78b9e535c3aeaeafa318a2
 Section: x11
 Priority: optional
-Description: Plugins control center for panel XFCE.
+Description: Control Center panel plugin for XFCE desktop environment
+ A native, modern control center applet designed specifically for the XFCE
+ panel in DESERT OS. Provides quick access and management for network
+ connections (Wi-Fi/Ethernet), Bluetooth, Airplane mode, display brightness,
+ audio volume, active MPRIS media players, and system shortcuts with a
+ cohesive and polished look.
 
 Package: desert-datetime-plugins
 Version: 5.5
@@ -356,13 +361,17 @@ Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Filename: ./desert-menu-plugins_5.5_all.deb
-Size: 24676
-MD5sum: 3d5930e9ca2eec876047dbd2e2043572
-SHA1: 1e4277546116fb8a3cdd3c58b5160652bcf2879f
-SHA256: c0224cbd47db67885c51e5d7285bdf1a290a3ac61903c5635b27fbb1f77aa2de
+Size: 24932
+MD5sum: deaf63d1525dfba849264cb8bc0e9091
+SHA1: 45b6664a417335bff2986a35b619c91cf7e424a0
+SHA256: 585d52ce7701f0f2f399c7a29f66266856fd1e89586a95e6b6a70becb6dd8a10
 Section: x11
 Priority: optional
-Description: Plugins menu for panel XFCE.
+Description: Custom application menu and system plugins for XFCE panel
+ A feature-rich and lightweight panel plugin designed specifically for
+ the DESERT OS XFCE desktop environment. It provides a modern application
+ menu, quick system controls, live package update notifications, and an
+ integrated "About DESERT" system information dialog with hardware detection.
 
 Package: desert-mirror-optimizer
 Version: 5.5

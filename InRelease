@@ -5,32 +5,32 @@ Origin: DESERT OS Software Repository
 Label: DESERT OS Software Repository
 Suite: resolute
 Codename: resolute
-Date: Mon, 03 Aug 2026 07:13:55 UTC
+Date: Tue, 04 Aug 2026 12:33:34 UTC
 Architectures: amd64
 Components: main
 Description: Official APT repository for DESERT OS Linux applications
 MD5Sum:
- b9b23acd293090531b5cab6ac359b600 27267 Packages
- 242f7783256f6ee46f7ebdeddc22c67a 10001 Packages.gz
+ 4a28efc4d42300d2ce8df105b4369cae 27931 Packages
+ d3b0bf6ae04e25ebf46af0439da3b82c 10290 Packages.gz
 SHA1:
- eaf2ece31e34b6c2fe1f5658664f2462f7d8011e 27267 Packages
- 272becfeb9e6120ee3fb2452564f20afe929ae08 10001 Packages.gz
+ eb874821a20248ec01ae0a53a59e5bf15c155cfa 27931 Packages
+ 67fb11f0eb74a00337768dc24735f7bd7dc02de5 10290 Packages.gz
 SHA256:
- 13f47c40bb5fdc077b231cd053735c81a274f79384cba7b1aead1fd6e5a3bf3e 27267 Packages
- f4bdaff2aebab731e09a8055354fc782fd42f7de51e9e031e867edfdc4590179 10001 Packages.gz
+ b473009830b3a8a5df19247b6a13577c367a5a39441cfd86fe34f321b25c2673 27931 Packages
+ 9125b64a6a8b7ec1471ad1d9d89ae3c13a61919542c55ae4050b15cf2970b65d 10290 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmpwP7MACgkQue6rFacx
-3RIGoQ//fQkeXCF7k52nBwV9FOwO9XjM2Cn7eROGXT/ZazgOlETVQ+VGiJEomJXr
-Ox1Fir9E2NjttxCVs2mP3Zmuo+Jrodr1CgUklPhJIMWLx5i9+6s3Z7tfjN3ank9F
-orsbNvJjnZ1UfZDeaY1IWQ6aOkKMhypO2KK2EDzv4mYMG/LWkhdKlP06LdWRe+bR
-De1hf1DJ7VsYTzXbA5lSyhxLNebUrWelaycBnkVXpSdno9zatOSA36LX5rHuiEIE
-YHrvHijl1FXmE07ms6/BPoMN8/LEDmP3b/+SBIhSaQvlsnwRYrOSf0i/2J+O3xts
-k4arhuEeL2EvlN5P/Al/xACVhqnJ6KrPM3GgQLJx71/yKWF11PJy9fZjU0EXZSE6
-7mshk6KtpbAVleL3I7I6zwxNcqNsTNPcUwom/GI5yIyUvn4YHlneeW1lS+seJDfe
-YSmqG+n1JLpL6YasFMwRHRrJjOdHpiLdsyX7QkohOnriNw6v7FZyhXme74xVO2Te
-DjD6DnC1uWsUy8x5hpq1F/AlDvikPOLwTzoVZlCHos4ga/jWdyqFFYq2ZtjIvhwT
-zeSGQpXlcYzTimNjYqabe1etd7Wbmt4/YSc/R0D7UQ/Ol0UnjGNwAwOd5i2VTQZt
-baRQ0d+Zk9+R+P/H6qZ+KO//pmjEBZn18zJXW7vh3jjhNmCI2kk=
-=9xyH
+iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmpx3B8ACgkQue6rFacx
+3RK8mg//eNSaTIAcp9YVxO7/KI3omYl5TSpigQIcTQ+8l8Nnaq2Z/I0ScLo2/IIw
++NFDuFNOC/7xdOh0jIRNNJI+mpin5sGFzZaEqMzIJZl6+6ub95DhD/oqSJWoxNp3
+gMFSfHhniYDMTDYmnuCLI9OLbzdtj2xgyOvTZdKFD8vYzSdA8thXur3koXPP7Y2y
+h7IyH55pJCcp1nTNG1Yhc44p2mqF+tbKoN52uPwuCfISCdN3KbxjynB80fi3NGvl
+qoiohLDDzRSDJQ718b9fCtXDqbmwfst5FBuVKO7R40wkfSPA7g1158aBFY+wTA/D
+ijQaX6b5W91RJGmwrizs3FzlyoV68ac1VLiO2zgJQN/cFUBglzI8CHAT77ttKjK/
+5l4xDjfEHwiYX22mrIuqBdizPdahTA5Va8yP7VJY/rvgJyPdmGBxIWcpSoEq6amj
+8App1iNjPW09ty/+KxMJ+HAzsKLe7z/PK0jAyvA5vzfu285gb1gJGgF4uPZe4oTF
+vD1hkNR5VIzCfjNKQsYtvRXPQhzEp6xrkvWzgVZCNAOhIaXw/zyBB6kMRWjAaqcQ
+Fl7rwS0r2xwZ9ed+8KtEY3f+QisRsn1labKb6vo+7f4uhplfaeB5mNGhK4M4nORj
+brUKvLaMJOsYDMmbcffmazaC+GdUvsqkHIJ1hLPI0TK1l71xyqo=
+=dc7y
 -----END PGP SIGNATURE-----
