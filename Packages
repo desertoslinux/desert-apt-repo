@@ -152,11 +152,12 @@ Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 154
+Depends: redshift
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 41746
-MD5sum: dcdfeb6d30a012109fe8cea273a9fd2d
-SHA1: 8e4965888b54b65e66168edecafa3daf7eefe0e6
-SHA256: 81f2a8c1ebc490953b3098b807b2836f0697e057793e3c49d62c9a926eac3220
+Size: 49584
+MD5sum: 3f3e821c3af65bd5efc418517ab68ffb
+SHA1: 6eddf419a2fa74a116e27f50e6974af43cca0ced
+SHA256: 4ce0cc8eeb1029c9fb7dc0bf352b4e17258b120b15dccf5a66731008198b616a
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
@@ -165,6 +166,10 @@ Description: Control Center panel plugin for XFCE desktop environment
  connections (Wi-Fi/Ethernet), Bluetooth, Airplane mode, display brightness,
  audio volume, active MPRIS media players, and system shortcuts with a
  cohesive and polished look.
+ .
+ Features built-in Redshift integration with dedicated pop-up controls to adjust
+ color temperature and gamma brightness on the fly, offering customizable
+ presets (Daylight, Warm, Night) and quick settings reset capabilities.
 
 Package: desert-datetime-plugins
 Version: 5.5
