@@ -361,12 +361,12 @@ Package: desert-menu-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 103
+Installed-Size: 146
 Filename: ./desert-menu-plugins_5.5_all.deb
-Size: 32350
-MD5sum: 812ee83e0986e9b599111dfe639d84bf
-SHA1: a64a2dc1785e82a22fff6789bd689f7763d8ff97
-SHA256: f896e99a93a0df8cea6837f5aa20940b7247a7f28ba78c7a0bb96637b81eff4a
+Size: 34412
+MD5sum: 280fbccf37d5ad5ca5bf416db20db0ec
+SHA1: 83008bc5ff5d53431ed268c3703a5b06299cea29
+SHA256: 58888dbd14fb74e712b2e8e468a3e71fd7a370857417bc7751efb05b40fe762d
 Section: x11
 Priority: optional
 Description: Custom application menu and system plugins for XFCE panel
