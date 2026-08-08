@@ -153,10 +153,10 @@ Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 154
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 36246
-MD5sum: 5702efda78180ba76dbae8f4cc7366f8
-SHA1: 3ddb8167c74f9e44cd3cc55fca4c876d30ad024a
-SHA256: 27a91b515bd670350fa9f4779df8e162b8ebadf9a3c81fa6348cb170edfb76c6
+Size: 41746
+MD5sum: dcdfeb6d30a012109fe8cea273a9fd2d
+SHA1: 8e4965888b54b65e66168edecafa3daf7eefe0e6
+SHA256: 81f2a8c1ebc490953b3098b807b2836f0697e057793e3c49d62c9a926eac3220
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
@@ -361,12 +361,12 @@ Package: desert-menu-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 97
+Installed-Size: 103
 Filename: ./desert-menu-plugins_5.5_all.deb
-Size: 24950
-MD5sum: 6b27a76b386d6227bb95f1ea92880724
-SHA1: 67ba64e386a176fcdcebe3fa84cec2b15cd91058
-SHA256: 60853b59b9cb7777c81f700e596339d0952b98f6d0f47a4e051ec040a1adec1a
+Size: 32350
+MD5sum: 812ee83e0986e9b599111dfe639d84bf
+SHA1: a64a2dc1785e82a22fff6789bd689f7763d8ff97
+SHA256: f896e99a93a0df8cea6837f5aa20940b7247a7f28ba78c7a0bb96637b81eff4a
 Section: x11
 Priority: optional
 Description: Custom application menu and system plugins for XFCE panel
@@ -575,11 +575,12 @@ Package: desert-weather-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 387
 Filename: ./desert-weather-plugins_5.5_all.deb
-Size: 236374
-MD5sum: 7b157ba5a2963d51351f995cebea15c0
-SHA1: 827d2b03ee1bc01980c1a8cd00ccd4efcd05bf89
-SHA256: 1f113421c3d4904ae7768f929d07a18fc06e0dbab2d1b964f4150c31bb86fc8f
+Size: 238814
+MD5sum: 83783991921aab2e86b7c634c79edf66
+SHA1: af34f48d7fde68a8f2db179ccab9f28bb6f75757
+SHA256: f06864f19dd155516b5757a5fc68730436f493bb0097b5dd2a815099f66dca85
 Section: x11
 Priority: optional
 Description: Plugins weather for panel XFCE
