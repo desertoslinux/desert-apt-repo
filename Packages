@@ -379,16 +379,24 @@ Package: desert-mirror-optimizer
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 15.9
+Installed-Size: 105
 Depends: python3, python3-gi, gir1.2-gtk-3.0, iputils-ping
 Filename: ./desert-mirror-optimizer_5.5_all.deb
-Size: 117812
-MD5sum: f589677b758db3ec0c8b8586caad73e1
-SHA1: 9b2411b38869a591172d4e64b973b0a79bf9c517
-SHA256: 845cf66771e07e01f6b9d6cc7cff9ba56eeb9a7ab55981dfd9746161a44d25b7
+Size: 26354
+MD5sum: 02dfa27acb67fbe38978329f2e9cf1b6
+SHA1: 80b46e3eb8fca09b3f41c037913f8b4d6dcf71a0
+SHA256: c7347e2ed0ca596fecdf33060cf050dd6c67b0bf0943a5faf474c388e08a500c
 Section: x11
 Priority: optional
-Description: Mirror optimizer.
+Description: Graphical utility for selecting and testing Ubuntu mirrors
+ DESERT Mirror Optimizer automatically detects, pings, and benchmarks
+ available APT repository mirrors to find the fastest connection.
+ .
+ Features:
+  * Automatic country and region detection for Ubuntu mirrors
+  * Interactive mirror latency testing with real-time ping results
+  * One-click configuration update for /etc/apt/sources.list.d/ubuntu.sources
+  * Seamless integration with DESERT OS system monitoring services
 
 Package: desert-pen
 Version: 5.5
@@ -422,13 +430,13 @@ Package: desert-settings
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 14340
+Installed-Size: 14350
 Depends: python3, python3-gi, python3-ephem, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 5015210
-MD5sum: f2ce0aef99cccaa64482c32482529a78
-SHA1: 0f49537bc8f10052044fcc47216d8bfa80bd417b
-SHA256: d73566fd5edeece46e1e0fac8d96e300a251a4053d9f99e5ee4447a1c0f9e881
+Size: 5017964
+MD5sum: ee4198ac2e8370bfd2fd13f029c6c9a8
+SHA1: a62f310268cbfefd52d8de1fc2ace072c6579f83
+SHA256: 541763aad1d7e3f1c1701bc5937c153867947877e7bdfc62239f2787ef4ff5fd
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
