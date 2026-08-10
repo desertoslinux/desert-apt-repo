@@ -154,10 +154,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 215
 Depends: redshift
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 49588
-MD5sum: 058ec0062e01be670f189b428b42220b
-SHA1: c93ba18d1e6e8869991d245f5e1595760a576138
-SHA256: 900ba1ab2a92cddaac01c578c869e459d1d9f3e1cc7ebe6e3883fc1bdcc81625
+Size: 49604
+MD5sum: 36859cdd5e83ee9cdefa100930dc7dbd
+SHA1: 667c792f809b6f8c673acce7506a63b754f9c786
+SHA256: 6e02a6b2267ab1037487d42b20f11316eadb58ef46fcc1dd6e96124601b7dafd
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
