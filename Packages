@@ -151,13 +151,13 @@ Package: desert-control-center-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 154
+Installed-Size: 215
 Depends: redshift
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 49584
-MD5sum: 3f3e821c3af65bd5efc418517ab68ffb
-SHA1: 6eddf419a2fa74a116e27f50e6974af43cca0ced
-SHA256: 4ce0cc8eeb1029c9fb7dc0bf352b4e17258b120b15dccf5a66731008198b616a
+Size: 49588
+MD5sum: 058ec0062e01be670f189b428b42220b
+SHA1: c93ba18d1e6e8869991d245f5e1595760a576138
+SHA256: 900ba1ab2a92cddaac01c578c869e459d1d9f3e1cc7ebe6e3883fc1bdcc81625
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
