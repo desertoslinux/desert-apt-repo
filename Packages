@@ -488,13 +488,13 @@ Package: desert-snap-layouts
 Version: 5.5
 Architecture: amd64
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 28
+Installed-Size: 29
 Depends: libc6, libgtk-3-0, libwnck-3-0, libgdk-pixbuf-2.0-0, libglib2.0-0, libx11-6, wmctrl, x11-utils
 Filename: ./desert-snap-layouts_5.5_amd64.deb
-Size: 9204
-MD5sum: 0c17463ff5143fb1c177743e1703bfda
-SHA1: 6910aec45adb1f159f5d1d26ee024f464e83a3ab
-SHA256: 6dde8ff709bfe6cd921c6367bf9981c542c76386c0c72ab5685f79f082199254
+Size: 9132
+MD5sum: 802ba5003bd5ae86f96dcbcc8f205425
+SHA1: 6e4df159797da8f613a1b528699b91c6e07e1742
+SHA256: cc607a700699f0817885ca092a6522859b3d9e692ee62ad89f3afee38217d18b
 Section: x11
 Priority: optional
 Description: Smart window snapping assistant for DESERT OS
