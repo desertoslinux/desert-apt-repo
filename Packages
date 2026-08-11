@@ -422,13 +422,13 @@ Package: desert-power-mode
 Version: 5.5
 Architecture: amd64
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 29
+Installed-Size: 34
 Depends: power-profiles-daemon, libayatana-appindicator3-1, libgtk-3-0
 Filename: ./desert-power-mode_5.5_all.deb
-Size: 8102
-MD5sum: a99973dfba77b4980b553f2fadf85626
-SHA1: f113109744da112bb0f754c4fd99aab3a6da025a
-SHA256: d1ca23579f26adadd09bde2e9b7313af4aa5dbbf2c7b0bbea77f9001f134e605
+Size: 8416
+MD5sum: 3251fa96e95c42b2f6802953ac070905
+SHA1: 807b7faa863047ce4d9d45665150403940bbca8e
+SHA256: 7f11ae69485656f8cc5273310e507e6520f8e35cdaf1f5989874f72d6de74089
 Section: x11
 Priority: optional
 Description: Power profile mode indicator for DESERT OS
