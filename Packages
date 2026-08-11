@@ -418,6 +418,27 @@ Section: education
 Priority: optional
 Description: Drawing on the screen.
 
+Package: desert-power-mode
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 29
+Depends: power-profiles-daemon, libayatana-appindicator3-1, libgtk-3-0
+Filename: ./desert-power-mode_5.5_all.deb
+Size: 8102
+MD5sum: a99973dfba77b4980b553f2fadf85626
+SHA1: f113109744da112bb0f754c4fd99aab3a6da025a
+SHA256: d1ca23579f26adadd09bde2e9b7313af4aa5dbbf2c7b0bbea77f9001f134e605
+Section: x11
+Priority: optional
+Description: Power profile mode indicator for DESERT OS
+ A native power profile selector and system tray indicator designed for
+ DESERT OS. Provides seamless switching between Performance, Balanced, and
+ Power Saver profiles directly via power-profiles-daemon integration.
+ .
+ Features real-time CPU energy preference management, dynamic status-colored
+ tray icons (Performance, Balanced, Power Saver), and native GTK3 integration.
+
 Package: desert-search
 Version: 5.5
 Architecture: all
@@ -462,6 +483,32 @@ Description: System settings center for DESERT OS
   * Hot Corners: Configure automated actions for screen corners.
   * Tweaks: Widgets, startup sound effects, dynamic workspaces,
     and switch compositors (Picom/XFWM4) on the fly.
+
+Package: desert-snap-layouts
+Version: 5.5
+Architecture: amd64
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 28
+Depends: libc6, libgtk-3-0, libwnck-3-0, libgdk-pixbuf-2.0-0, libglib2.0-0, libx11-6, wmctrl, x11-utils
+Filename: ./desert-snap-layouts_5.5_amd64.deb
+Size: 9204
+MD5sum: 0c17463ff5143fb1c177743e1703bfda
+SHA1: 6910aec45adb1f159f5d1d26ee024f464e83a3ab
+SHA256: 6dde8ff709bfe6cd921c6367bf9981c542c76386c0c72ab5685f79f082199254
+Section: x11
+Priority: optional
+Description: Smart window snapping assistant for DESERT OS
+ DESERT Snap Layouts is an intelligent window tiling and positioning
+ assistant designed specifically for XFCE desktop environment in DESERT OS.
+ .
+ Key features:
+  * Interactive snap layout selector popup triggered by hovering near window controls.
+  * Live visual preview of window placement on screen.
+  * Full awareness of dynamic workarea boundaries and XFCE panels.
+  * Accurate 10px margin calculations with native support for both CSD (GTK/GNOME)
+    and SSD (Xfwm4) window decorations.
+  * Automatic detection and ignoring of borderless custom application frames.
+  * High-performance lightweight core written natively in C.
 
 Package: desert-software
 Version: 5.5
