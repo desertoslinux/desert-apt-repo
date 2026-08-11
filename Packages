@@ -456,13 +456,13 @@ Package: desert-settings
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 14350
+Installed-Size: 14333
 Depends: python3, python3-gi, python3-ephem, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 5017964
-MD5sum: ee4198ac2e8370bfd2fd13f029c6c9a8
-SHA1: a62f310268cbfefd52d8de1fc2ace072c6579f83
-SHA256: 541763aad1d7e3f1c1701bc5937c153867947877e7bdfc62239f2787ef4ff5fd
+Size: 5013122
+MD5sum: 4f8595ef8199a501e3026acee404b9ee
+SHA1: 2f40e11dd0eb743d56f8ef2abf66f204ba4c056b
+SHA256: dc6477f4001dcb0664745764cc2c6ccd39ac46d0a5b8f9774f22d5ea7fa847a8
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
