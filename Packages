@@ -188,16 +188,25 @@ Package: desert-deb-installer
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 250
+Installed-Size: 61
 Depends: python3 (>= 3.5)
 Filename: ./desert-deb-installer_5.5_all.deb
-Size: 16260
-MD5sum: 5ccf2b21ca27bb5abc201d3f8fd195af
-SHA1: a0a31594dc3b78ab4bcb6237efd92e7c134178a2
-SHA256: 8f33d2b82f0b37fa543f31aae4cf48aaf5552e847f7aa6b0c55e1f735ac15447
+Size: 18358
+MD5sum: 4127dfaf6807f0a388617e37b7d1dc19
+SHA1: 027c66bcccaa424335026d1db999fc96012d0721
+SHA256: 42ad5e2efd0ea481861b5e51ade37a36e86db754625bb3225b0f0f7664d1b5da
 Section: utils
 Priority: optional
 Description: Working with deb packages.
+ DESERT Deb Installer is a graphical utility designed for DESERT OS Linux.
+ It provides a user-friendly GTK interface to easily install, upgrade,
+ reinstall, or safely downgrade local .deb packages.
+ .
+ Key features include:
+  * Automatic dependency checking and validation.
+  * User protection from system package manager locks.
+  * Safe privilege elevation via pkexec.
+  * Seamless integration with DESERT OS UI and notifications.
 
 Package: desert-disk-manager
 Version: 5.5
@@ -459,10 +468,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 14333
 Depends: python3, python3-gi, python3-ephem, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 5013122
-MD5sum: 4f8595ef8199a501e3026acee404b9ee
-SHA1: 2f40e11dd0eb743d56f8ef2abf66f204ba4c056b
-SHA256: dc6477f4001dcb0664745764cc2c6ccd39ac46d0a5b8f9774f22d5ea7fa847a8
+Size: 4950952
+MD5sum: dc5060de94c345efb1b36e2fae44e595
+SHA1: 762953a85c947c743e3d776a3c94249bfc79258c
+SHA256: 5f9125996b396498c44905760b806bc5461e221412a33dca9dab9550a3e2f6cf
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
@@ -514,13 +523,13 @@ Package: desert-software
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 158
+Installed-Size: 383
 Depends: python3, python3-gi, python3-apt, gir1.2-gtk-3.0, gir1.2-appstream-1.0, gir1.2-pango-1.0, gir1.2-gdkpixbuf-2.0, flatpak
 Filename: ./desert-software_5.5_all.deb
-Size: 325186
-MD5sum: b232794ba01e2ecac11b5a6fb334d316
-SHA1: 53229bbb095c8027fc726e826df15d39c0839463
-SHA256: 0c6b0b6b084cc576f953dd017361bdbf094a17043fed1b6f7ddcb0ad307f07d4
+Size: 338786
+MD5sum: 98f810436822ce6fe4e5ab2271af46fa
+SHA1: 0b7e8e175104f816b2b22d64999522244cc1ea3f
+SHA256: 13ae0667eb81e832529ac5ad3b487b233dd7f7a3e8d23c8a42f3230edaf1a666
 Section: utils
 Priority: optional
 Description: Advanced Software Center for DESERT OS
