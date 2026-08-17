@@ -151,13 +151,13 @@ Package: desert-control-center-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 215
+Installed-Size: 227
 Depends: redshift
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 49604
-MD5sum: 36859cdd5e83ee9cdefa100930dc7dbd
-SHA1: 667c792f809b6f8c673acce7506a63b754f9c786
-SHA256: 6e02a6b2267ab1037487d42b20f11316eadb58ef46fcc1dd6e96124601b7dafd
+Size: 51406
+MD5sum: b8470e6e94f182ee8460765e404d71ed
+SHA1: 19b438cdc3e814c62deb14400e8cf3408b30e5d4
+SHA256: 0c5c7df585a13b9cfa3909e1505fea27f0d065d1ae5e78e0c0bfbb9758e7b389
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
@@ -276,14 +276,27 @@ Package: desert-global-menu-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 195
 Filename: ./desert-global-menu-plugins_5.5_all.deb
-Size: 36780
-MD5sum: b8ce263898f0eeb660521ae745f3726d
-SHA1: 417ac383d0b1258cd6a80558d78e141f4060fb2b
-SHA256: 1201960a5dd090ba8f9e654939e8b9bceaf5a8d3ce0520f7bb0a4fa3f7a8e513
+Size: 45318
+MD5sum: 1dad8e3b3242618a88e1aba5fec9f1b2
+SHA1: a9eb383dedb23a7ae314171890cad378b2557bd2
+SHA256: 0c9b12e4011b73388dc92e7cf297601c56e9160c61d415611a613e89406d8a95
 Section: x11
 Priority: optional
 Description: Global menu for panel XFCE.
+ This package provides a global menu plugin for the Xfce panel.
+ It exports application menus via D-Bus and displays them directly
+ on the panel, saving valuable vertical screen space and providing
+ a unified desktop experience.
+ .
+ Key features:
+  * Seamless integration with standard DBusMenu interfaces.
+  * Real-time active window tracking using Wnck.
+  * Fallback menu generation with standard window actions.
+  * Quick access to XDG user directories (Desktop, Downloads, etc.).
+ .
+ Designed and optimized for the DESERT OS Linux environment.
 
 Package: desert-image-writer
 Version: 5.5
@@ -375,12 +388,12 @@ Package: desert-menu-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 146
+Installed-Size: 147
 Filename: ./desert-menu-plugins_5.5_all.deb
-Size: 34412
-MD5sum: 280fbccf37d5ad5ca5bf416db20db0ec
-SHA1: 83008bc5ff5d53431ed268c3703a5b06299cea29
-SHA256: 58888dbd14fb74e712b2e8e468a3e71fd7a370857417bc7751efb05b40fe762d
+Size: 34418
+MD5sum: 97b2f387710cc24018370bd742577352
+SHA1: 6ed3b7566ba9d98c3ff1bf60fd10825ede8e28c8
+SHA256: bfce4d3f2f45b9159066096f633be061a605b6bd390267c4ab18d0b1926e1025
 Section: x11
 Priority: optional
 Description: Custom application menu and system plugins for XFCE panel
@@ -636,12 +649,12 @@ Package: desert-weather-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 387
+Installed-Size: 388
 Filename: ./desert-weather-plugins_5.5_all.deb
-Size: 238814
-MD5sum: 83783991921aab2e86b7c634c79edf66
-SHA1: af34f48d7fde68a8f2db179ccab9f28bb6f75757
-SHA256: f06864f19dd155516b5757a5fc68730436f493bb0097b5dd2a815099f66dca85
+Size: 238802
+MD5sum: f71d2725db7149f0dc1f036f09c0b118
+SHA1: 5e0ffbc38bc1929521aef2c706d7d3194c6c3ac3
+SHA256: 5a07b928047d706696fb11e22a78e477e3312e1c675b8e56b59d39f521d21e48
 Section: x11
 Priority: optional
 Description: Plugins weather for panel XFCE
