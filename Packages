@@ -533,6 +533,28 @@ Description: Smart window snapping assistant for DESERT OS
   * Automatic detection and ignoring of borderless custom application frames.
   * High-performance lightweight core written natively in C.
 
+Package: desert-snapshots
+Version: 5.5
+Architecture: all
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 53
+Depends: btrfs-progs, util-linux, gawk, libgtk-3-0, libglib2.0-0, pkexec
+Filename: ./desert-snapshots_5.5_all.deb
+Size: 13724
+MD5sum: 1cb0d144031a662ea1f44e918b8adfeb
+SHA1: 632a0b416721668d4247ac5a296675c20a25fe36
+SHA256: fd571af71a894d0e2aaea585190d2987c1db730402bc0a1f5c62bd1fa3ea12bc
+Section: utils
+Priority: optional
+Description: Native BTRFS snapshot manager for DESERT OS
+ DESERT Snapshots is a lightweight GTK3 graphical utility designed to safely
+ manage BTRFS system snapshots. It allows users to easily create, delete, and
+ restore system states using BTRFS subvolumes.
+ .
+ Key features include visual indication of the currently active system snapshot,
+ a safe subvolume swapping architecture, and automatic integration with the GRUB
+ bootloader to ensure seamless system recovery.
+
 Package: desert-software
 Version: 5.5
 Architecture: all
