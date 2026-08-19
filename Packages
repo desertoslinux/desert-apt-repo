@@ -94,14 +94,14 @@ Package: desert-cleaner
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 75
+Installed-Size: 74
 Depends: python3, python3-gi, gir1.2-gtk-3.0, libgsound0t64
 Recommends: desert-sounds
 Filename: ./desert-cleaner_5.5_all.deb
-Size: 23170
-MD5sum: 6c00fa61256e422f1ca81d78b44cf84f
-SHA1: c1eb9fcd4038824464aee359755258aa18acf189
-SHA256: f40f0e1cea1401de5c2ddac5cc14e3554434813e77da2af9a0f0d835732ead94
+Size: 22990
+MD5sum: 6aaaab44e3044e77ee73fd53ae47aa0d
+SHA1: 46991486cbd1e999c35bd6a605618e953672ac0b
+SHA256: 1745350868c9f3142ef085f48292ff6a3be439ddeee0653585d2520f1b65f72c
 Section: utils
 Priority: optional
 Description: Advanced system cleaning utility for DESERT OS Linux
