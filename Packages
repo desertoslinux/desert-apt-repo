@@ -537,23 +537,23 @@ Package: desert-snapshots
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 83
-Depends: btrfs-progs, util-linux, gawk, libgtk-3-0, libglib2.0-0, pkexec, inotify-tools
+Installed-Size: 94
+Depends: btrfs-progs, util-linux, gawk, libgtk-3-0, libglib2.0-0, pkexec, inotify-tools, rsync
 Filename: ./desert-snapshots_5.5_all.deb
-Size: 21240
-MD5sum: a8dec5a1b02c05761f8ab5dd3dfa33f7
-SHA1: b7c28323a59efa02d9d5ee54980d855cf231ec05
-SHA256: 9d2065675c71631e4a55af6f8be5db61b904e791f19dc98cbd490f244c636851
+Size: 23322
+MD5sum: 4210ac0c2f42d9dc13e63f9e00c21e63
+SHA1: 4c9ba3b6599c976cd4b699f4fffe26259cdadd54
+SHA256: f33c547c2fbf8720e79158425ddb7dcd5f85dbefaa8cce73754631f416a2ecc6
 Section: utils
 Priority: optional
-Description: Native BTRFS snapshot manager for DESERT OS
+Description: Native system snapshot manager for DESERT OS
  DESERT Snapshots is a lightweight GTK3 graphical utility designed to safely
- manage BTRFS system snapshots. It allows users to easily create, delete, and
- restore system states using BTRFS subvolumes.
+ manage system snapshots. It automatically detects the root filesystem and
+ supports both BTRFS (via subvolumes) and ext4 (via rsync and hard links).
  .
  Key features include visual indication of the currently active system snapshot,
- a safe subvolume swapping architecture, and automatic integration with the GRUB
- bootloader to ensure seamless system recovery.
+ a safe restore architecture, and automatic integration with the GRUB
+ bootloader to ensure seamless system recovery for both file systems.
 
 Package: desert-software
 Version: 5.5

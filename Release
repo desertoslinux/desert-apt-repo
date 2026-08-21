@@ -2,16 +2,16 @@ Origin: DESERT OS Software Repository
 Label: DESERT OS Software Repository
 Suite: resolute
 Codename: resolute
-Date: Fri, 21 Aug 2026 09:17:02 UTC
+Date: Fri, 21 Aug 2026 12:46:32 UTC
 Architectures: amd64
 Components: main
 Description: Official APT repository for DESERT OS Linux applications
 MD5Sum:
- 839bcffb7d21cfc2103c3a41f1ac9fd2 32749 Packages
- 9b433590bdc1b90c6adf9c91932a1993 11917 Packages.gz
+ 640fd71687bd723e6465b5cc30b83168 32793 Packages
+ 527a1a7aef71a1391ec7853b3d4b6c4f 11933 Packages.gz
 SHA1:
- 45a036e0eb4c22650a6ec929674e8c8376babf55 32749 Packages
- 60bb9d924b8bab3be8a4648cdf410ce8e34144a3 11917 Packages.gz
+ 7dcfe1b4a53d248387d21468da8c0c756177358b 32793 Packages
+ c77cc8d6dd069610b3934773a6b69b278125c503 11933 Packages.gz
 SHA256:
- 6f47ba9cc17db681aa2d86199a027d6b15a85ac4ff5ab3d7936beeedc6c1156e 32749 Packages
- d49c998889d1520bbc3b7da7b5bcbda46e5026156c63a7a524fd4b5cff4928b6 11917 Packages.gz
+ 6d4e4fd0bd9134685c6cb555caeba06041b90cd0201eb282db7a59b72adab720 32793 Packages
+ 4a56e394ff101fab280520aaad5b7944a1c6e93bf6dc84e554f139680d527dd4 11933 Packages.gz
