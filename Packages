@@ -39,10 +39,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 3338
 Depends: coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, user-setup, discover1 | discover, laptop-detect, syslinux, syslinux-common, isolinux, util-linux, dpkg-dev, python3:any (>= 3.3~), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, plymouth-x11
 Filename: ./desert-builder_5.5_all.deb
-Size: 4148578
-MD5sum: 70eba6ab5619c82d993dbc0a1343a0ec
-SHA1: dcb8be1d251868ae2ceb53b5985c89099a8c3f77
-SHA256: a673c97a8fd680fa4f8a83b9ea566c0e7c432541a4dd52cb287e9882009a2b42
+Size: 4240926
+MD5sum: 6187bb888aa513f0573832aa6f46e7ea
+SHA1: 5159b4d3d7b7f726674145183e5bae373aa2ca4e
+SHA256: 02d332e3660afc7c88768e75e56f8620622d594990b4e5a004e7c8610604bc2a
 Section: utils
 Priority: optional
 Description: GUI tool for creating a clean bootable system ISO image
@@ -332,10 +332,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 9811
 Depends: live-boot, live-tools, locales, python3-parted, gparted, python3-gi, gir1.2-gtk-3.0, python3-cairo, python3-defusedxml, python3-yaml, gettext-base, isoquery, librsvg2-common, parted, dosfstools, console-setup, btrfs-progs
 Filename: ./desert-installer_5.5_all.deb
-Size: 10007568
-MD5sum: ea19c65a7f5a9dc7fb6aacc3a8a0d37d
-SHA1: 709b3bf724c6f09604070f01aefcedd1f6af6802
-SHA256: cda9f767df8a472bbd2aa31993c64c85f073f4ba49eb95e2a8c30bbf5dc4a7a2
+Size: 6501610
+MD5sum: e4918dd879730e987f38ecbfd518c7e8
+SHA1: 5f893f878bcfc6b27d0a08facad8564d1cbd9bb3
+SHA256: 5e36eb266ded1c4bcfef7e23e3bb1981d7526dc1614997a0d71cf9ca61e292b3
 Section: utils
 Priority: extra
 Description: Graphical system installer for DESERT OS
