@@ -391,10 +391,10 @@ Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 147
 Filename: ./desert-menu-plugins_5.5_all.deb
-Size: 34418
-MD5sum: 97b2f387710cc24018370bd742577352
-SHA1: 6ed3b7566ba9d98c3ff1bf60fd10825ede8e28c8
-SHA256: bfce4d3f2f45b9159066096f633be061a605b6bd390267c4ab18d0b1926e1025
+Size: 34826
+MD5sum: 5e8f52e6c1b762eefff0f73966c5353d
+SHA1: 226f596ba899cac6733de6436a350c23f413938d
+SHA256: 61c63ca6a56de3bb0e76e1e005837fbab241ad736c5dd858663aece48b445afd
 Section: x11
 Priority: optional
 Description: Custom application menu and system plugins for XFCE panel
