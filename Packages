@@ -748,16 +748,16 @@ Description: Smart PAM module for fingerprint authentication
   * It returns PAM_IGNORE when auth can be performed by fprintd.
 
 Package: neofetch
-Version: 5.0-desert
+Version: 5.5-desert
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 355
 Recommends: chafa, caca-utils, jp2a, libsixel-bin, w3m-img, pciutils
-Filename: ./neofetch_5.0-desert_all.deb
-Size: 69092
-MD5sum: a0c1c99d2c7c98042dcc776cca3bb96f
-SHA1: ffbc2339963271d84a03e955f9449a7edb0ad434
-SHA256: 64de6f7b076ae898ce5063d447ee1abd1960780cb3605615025af642d6925d89
+Filename: ./neofetch_5.5-desert_all.deb
+Size: 69094
+MD5sum: 4d2247516abee226f7ec4a01641f4b1d
+SHA1: f5525f68a0ba94e26f749ef29c69a29215f24c1d
+SHA256: 8b00d04f8ac823085bec3c0f12d4362342b62b42a976a2850dec7f444a8416a5
 Section: utils
 Priority: optional
 Multi-Arch: foreign
