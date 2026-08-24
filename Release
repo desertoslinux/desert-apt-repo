@@ -2,16 +2,16 @@ Origin: DESERT OS Software Repository
 Label: DESERT OS Software Repository
 Suite: resolute
 Codename: resolute
-Date: Mon, 24 Aug 2026 08:35:20 UTC
+Date: Mon, 24 Aug 2026 20:50:10 UTC
 Architectures: amd64
 Components: main
 Description: Official APT repository for DESERT OS Linux applications
 MD5Sum:
- 871babcb82fe5e60015c5a68acde8054 32793 Packages
- 2bddbef345da9c83886415b4ce6ba55f 11934 Packages.gz
+ 93fa10385b10b136c22ab04c5f067504 32793 Packages
+ 88c3a7926d0e736ed30c0ab2a5165730 11931 Packages.gz
 SHA1:
- db52ad40b37ebfabb11e8780c9daf4f7a63bb304 32793 Packages
- b588aa211a5a5ecbc98ff3bfb8d451834e460832 11934 Packages.gz
+ bcb5915b8a96fc918372e90adc9e6983aaad9a72 32793 Packages
+ 4b20b38913d8f1dcf96c4168e93776bc426d4fdd 11931 Packages.gz
 SHA256:
- f607408f45a89f9cca2a89c7d1f9c81a6aa3b6b1511fc693e5b40aa2bad820f7 32793 Packages
- 1d362aa91500ec0ff196a2f9da28701091b3201d3d96346df8b93d36b702f715 11934 Packages.gz
+ 94dcc26903f049a6b56817cc5a58abb39c5c7d127fdef42ff392adefac1292c1 32793 Packages
+ 29a6aa75c002398804465e19bf1a7b6c2d8fdcf5c6cbe67aaa3b445cc44e4e5c 11931 Packages.gz
