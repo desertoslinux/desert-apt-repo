@@ -36,13 +36,13 @@ Package: desert-builder
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 3338
+Installed-Size: 19146
 Depends: coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, user-setup, discover1 | discover, laptop-detect, syslinux, syslinux-common, isolinux, util-linux, dpkg-dev, python3:any (>= 3.3~), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, plymouth-x11
 Filename: ./desert-builder_5.5_all.deb
-Size: 4240926
-MD5sum: 6187bb888aa513f0573832aa6f46e7ea
-SHA1: 5159b4d3d7b7f726674145183e5bae373aa2ca4e
-SHA256: 02d332e3660afc7c88768e75e56f8620622d594990b4e5a004e7c8610604bc2a
+Size: 4240954
+MD5sum: 12c7297873cbd3e022b209b3010825d2
+SHA1: c03987ea9af9e8d712eb543d30019cf68a8fb9f1
+SHA256: 2a7d4013da5d37db746f8cc1c35f558f7de72445c300e70adca39eec17a6e803
 Section: utils
 Priority: optional
 Description: GUI tool for creating a clean bootable system ISO image
@@ -329,13 +329,13 @@ Package: desert-installer
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 9811
+Installed-Size: 7397
 Depends: live-boot, live-tools, locales, python3-parted, gparted, python3-gi, gir1.2-gtk-3.0, python3-cairo, python3-defusedxml, python3-yaml, gettext-base, isoquery, librsvg2-common, parted, dosfstools, console-setup, btrfs-progs
 Filename: ./desert-installer_5.5_all.deb
-Size: 6501610
-MD5sum: e4918dd879730e987f38ecbfd518c7e8
-SHA1: 5f893f878bcfc6b27d0a08facad8564d1cbd9bb3
-SHA256: 5e36eb266ded1c4bcfef7e23e3bb1981d7526dc1614997a0d71cf9ca61e292b3
+Size: 6501680
+MD5sum: e9eaa0ab47f2ae661a3f40e703d98c2d
+SHA1: d9544ba9fcf753de00ea2947eeee109ec9e97f68
+SHA256: a38190c6dc4f304a029c74f1217cb35f88f6718ae9e95c076fe864492f9c903c
 Section: utils
 Priority: extra
 Description: Graphical system installer for DESERT OS
