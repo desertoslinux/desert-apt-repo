@@ -10,10 +10,10 @@ Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), 
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base, usr-is-merged
 Filename: ./base-files_14ubuntu6.2desert1_amd64.deb
-Size: 116202
-MD5sum: 6c9c4a0447c3e2f89d269e10374a326b
-SHA1: 58a58409edf3aaa77312b9d884742d0333417813
-SHA256: e8f8c4aea6afb882e2f07ef6e6677c5b3a3dae515f3220c9717e51cec19f1403
+Size: 116214
+MD5sum: cc07db23299dbe32240d1c6dca28e40e
+SHA1: c9ed775b57a7f61baf0384b0a433d0f8ea3930c4
+SHA256: 82ce2de6e4027aea9e152957e87237d5001efdab33c97649af77db1b3b0cd2ea
 Section: admin
 Priority: required
 Multi-Arch: foreign
