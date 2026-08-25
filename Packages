@@ -358,10 +358,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 7397
 Depends: live-boot, live-tools, locales, python3-parted, gparted, python3-gi, gir1.2-gtk-3.0, python3-cairo, python3-defusedxml, python3-yaml, gettext-base, isoquery, librsvg2-common, parted, dosfstools, console-setup, btrfs-progs
 Filename: ./desert-installer_5.5_all.deb
-Size: 6501680
-MD5sum: e9eaa0ab47f2ae661a3f40e703d98c2d
-SHA1: d9544ba9fcf753de00ea2947eeee109ec9e97f68
-SHA256: a38190c6dc4f304a029c74f1217cb35f88f6718ae9e95c076fe864492f9c903c
+Size: 6501604
+MD5sum: f47731a7ac90e9d0d05ba7d40e4b69f8
+SHA1: e685d7f74324253baeafbeeb3ed5781aa92a4bca
+SHA256: 618f576cd7ce6d28bca256ebe55199feacf44280c9f2ccbc7f2955e7a9919f9d
 Section: utils
 Priority: extra
 Description: Graphical system installer for DESERT OS
@@ -789,6 +789,24 @@ Priority: optional
 Multi-Arch: foreign
 Homepage: https://github.com/dylanaraps/neofetch
 Description: Shows Linux System Information with Distribution Logo.
+
+Package: os-prober
+Version: 1.84ubuntu1desert1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 85
+Depends: grub-common, mount
+Recommends: util-linux (>> 2.37.2)
+Filename: ./os-prober_1.84ubuntu1desert1_amd64.deb
+Size: 12776
+MD5sum: 76876d2ddc0909c6cba270f08d884a2e
+SHA1: b014cfdcef2f3963459e9a30845d3ca22a0a2093
+SHA256: 54177654acedb347eac2c16923181aa1ec6626255c3b20203399df535baad312
+Section: utils
+Priority: optional
+Description: utility to detect other OSes on a set of drives
+ This package detects other OSes available on a system and outputs the
+ results in a generic machine-readable format.
 
 Package: xdg-desktop-portal
 Version: 5.0-desert
