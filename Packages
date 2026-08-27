@@ -355,13 +355,13 @@ Package: desert-installer
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 7397
+Installed-Size: 7399
 Depends: live-boot, live-tools, locales, python3-parted, gparted, python3-gi, gir1.2-gtk-3.0, python3-cairo, python3-defusedxml, python3-yaml, gettext-base, isoquery, librsvg2-common, parted, dosfstools, console-setup, btrfs-progs
 Filename: ./desert-installer_5.5_all.deb
-Size: 6501604
-MD5sum: f47731a7ac90e9d0d05ba7d40e4b69f8
-SHA1: e685d7f74324253baeafbeeb3ed5781aa92a4bca
-SHA256: 618f576cd7ce6d28bca256ebe55199feacf44280c9f2ccbc7f2955e7a9919f9d
+Size: 6502308
+MD5sum: cad1b24882b6e7813968b21574199308
+SHA1: f2c81debc69c38dea6cddb5e1b024fc3b7647fcd
+SHA256: 4a17f0bb2fb81338712989d9927ac8722fa66d4c7eed8c7ee1a5049df1354457
 Section: utils
 Priority: extra
 Description: Graphical system installer for DESERT OS
