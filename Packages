@@ -1,5 +1,5 @@
 Package: base-files
-Version: 14ubuntu6.2desert1
+Version: 14ubuntu6.2desert5.5.2
 Architecture: amd64
 Essential: yes
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
@@ -9,11 +9,11 @@ Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.4.10-10ubuntu3)
 Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~), ubuntu-server (<< 1.453)
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base, usr-is-merged
-Filename: ./base-files_14ubuntu6.2desert1_amd64.deb
-Size: 116214
-MD5sum: cc07db23299dbe32240d1c6dca28e40e
-SHA1: c9ed775b57a7f61baf0384b0a433d0f8ea3930c4
-SHA256: 82ce2de6e4027aea9e152957e87237d5001efdab33c97649af77db1b3b0cd2ea
+Filename: ./base-files_14ubuntu6.2desert5.5.2_amd64.deb
+Size: 111438
+MD5sum: a3d5a64204263cee1fe3d1abe0fea79a
+SHA1: ea7c9ee7764197e2ef71fbd6aee1dd0ca29c0938
+SHA256: c9f3495d77cf394e759854245de3df3f043a9a9f48b5de19040147794e0343ae
 Section: admin
 Priority: required
 Multi-Arch: foreign
@@ -22,7 +22,6 @@ Description: DESERT OS base system miscellaneous files
  several important miscellaneous files, such as /etc/debian_version,
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on DESERT OS systems.
-Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: coreutils-from-uutils
 Version: 9.9.9-desert
@@ -65,10 +64,10 @@ Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
 Installed-Size: 19146
 Depends: coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, user-setup, discover1 | discover, laptop-detect, syslinux, syslinux-common, isolinux, util-linux, dpkg-dev, python3:any (>= 3.3~), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, plymouth-x11
 Filename: ./desert-builder_5.5_all.deb
-Size: 4240954
-MD5sum: 12c7297873cbd3e022b209b3010825d2
-SHA1: c03987ea9af9e8d712eb543d30019cf68a8fb9f1
-SHA256: 2a7d4013da5d37db746f8cc1c35f558f7de72445c300e70adca39eec17a6e803
+Size: 4243190
+MD5sum: 8a8c0af2b8337b9e92cb4e6ee03a6ebc
+SHA1: c9bebe99f38fa46359574cf1ad9ece1656ca357c
+SHA256: 4ea55e03f304d150700c0ea24ae3cafb401cbaf5efff745f94e48c3c6ca577b9
 Section: utils
 Priority: optional
 Description: GUI tool for creating a clean bootable system ISO image
@@ -355,13 +354,13 @@ Package: desert-installer
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 7399
+Installed-Size: 7397
 Depends: live-boot, live-tools, locales, python3-parted, gparted, python3-gi, gir1.2-gtk-3.0, python3-cairo, python3-defusedxml, python3-yaml, gettext-base, isoquery, librsvg2-common, parted, dosfstools, console-setup, btrfs-progs
 Filename: ./desert-installer_5.5_all.deb
-Size: 6502308
-MD5sum: cad1b24882b6e7813968b21574199308
-SHA1: f2c81debc69c38dea6cddb5e1b024fc3b7647fcd
-SHA256: 4a17f0bb2fb81338712989d9927ac8722fa66d4c7eed8c7ee1a5049df1354457
+Size: 6502544
+MD5sum: a96092bff0c6e16af47e65c21c4e5aa6
+SHA1: 3cd79e12a7b87846fa17094ca824d8bb5b611bdd
+SHA256: 6a89aa9e7c8f970cfa7e6aa8274fd3b85cb5decf342db16de1405511634beb80
 Section: utils
 Priority: extra
 Description: Graphical system installer for DESERT OS
