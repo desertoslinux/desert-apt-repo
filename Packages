@@ -201,14 +201,19 @@ Package: desert-datetime-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 75
 Filename: ./desert-datetime-plugins_5.5_all.deb
-Size: 14650
-MD5sum: 997d303f9a3d806f11d3d959c7707f6a
-SHA1: e943c3c5fc27f83571041d08cb7e69f27c33f179
-SHA256: 4051f116c8b8c9eee5f88b0d197f293c3486dc4100fc591b58ca6861fab9fe8b
+Size: 22786
+MD5sum: 092206c420d02694b7945d8b726f6c62
+SHA1: df8ad8557ab72d2b808d2b179bf06523cb8241ad
+SHA256: 92dc0047bc5fc2444f2a2ddf0c6e57e02c80a2dccd2b69e2a1ce1a7b15d52b1c
 Section: x11
 Priority: optional
-Description: Data end time for panel XFCE.
+Description: Date and time panel plugin for XFCE
+ Modern and customizable date and time plugin for the XFCE desktop
+ environment. Provides an interactive clock display on the panel with
+ a feature-rich popup calendar, support for 12/24-hour time formats,
+ customizable date layouts, week numbers.
 
 Package: desert-deb-installer
 Version: 5.5
