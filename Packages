@@ -243,13 +243,13 @@ Package: desert-disk-manager
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 76
+Installed-Size: 80
 Depends: python3, python3-gi, gir1.2-gtk-3.0
 Filename: ./desert-disk-manager_5.5_all.deb
-Size: 19300
-MD5sum: 58857f0807e6fe4f140ced0f599bce6e
-SHA1: 0c251fe956c1b9977e747785363bb2b9f738faa6
-SHA256: ff28887cb2fb6c22a48ef4de64d0d227b7679e5cda9364de713491943e18bcda
+Size: 20058
+MD5sum: 70dd451762226a3b0ed461acc68cf539
+SHA1: 7861b60ed24390155ceede21eba393f3e21fc89f
+SHA256: 3b5a75b6f445fa86559d1951bee260c227f7001c401c23b0e3deea9380bc349e
 Section: utils
 Priority: optional
 Description: System and disk status information.
