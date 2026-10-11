@@ -758,6 +758,36 @@ Priority: optional
 Description: Fingerprint Configuration Tool
  Utility application used to configure fingerprint authentication.
 
+Package: libgbinder
+Version: 1.1.43
+Architecture: amd64
+Maintainer: Slava Monich <slava.monich@jolla.com>
+Installed-Size: 176
+Depends: libglibutil (>= 1.0.52), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0)
+Filename: ./libgbinder_1.1.43_amd64.deb
+Size: 56398
+MD5sum: 97c54409f40fa9647590d3f34a9bf1e3
+SHA1: 86369a4b1a38b7db05453c5b04223ab3435b9ad7
+SHA256: d6f94797015206f5317dcfb666d06d79cb54eeaaa58c19b43af5f5e8c0398ae1
+Section: libs
+Priority: optional
+Description: Binder client library
+
+Package: libglibutil
+Version: 1.0.80
+Architecture: amd64
+Maintainer: Slava Monich <slava.monich@jolla.com>
+Installed-Size: 99
+Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.32.0)
+Filename: ./libglibutil_1.0.80_amd64.deb
+Size: 28570
+MD5sum: f8d2505d8f2354ac190655546e92fcc5
+SHA1: 55453f16c41b81d9aa366c0d07521e99e05a1eaf
+SHA256: 3fc7d38bf1c06c627c0a32ba2ccfcc56c0ff8ce254ea03f43d0a30de6a3cdb69
+Section: libs
+Priority: optional
+Description: Library of glib utilities
+
 Package: libpam-fingwit
 Source: fingwit
 Version: 1.0.8-desert
@@ -812,6 +842,42 @@ Priority: optional
 Description: utility to detect other OSes on a set of drives
  This package detects other OSes available on a system and outputs the
  results in a generic machine-readable format.
+
+Package: python3-gbinder
+Source: gbinder-python
+Version: 1.3.1
+Architecture: amd64
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Installed-Size: 469
+Depends: libc6 (>= 2.14), libgbinder (>= 1.1.20), python3 (<< 3.15), python3 (>= 3.14~)
+Filename: ./python3-gbinder_1.3.1_amd64.deb
+Size: 141622
+MD5sum: 70223f05ad6993c4663e9d2d4f129937
+SHA1: fd6c1a6b9604b98657da8c416b51fcc4117a347d
+SHA256: 98c5e5003b0dbf8173dd8f63b75c340d0291c660dcc10f6f2d6e31cf67fa6c75
+Section: python
+Priority: optional
+Description: Cython extension module for C++ gbinder functions
+ This package contains a cython extension module for gbinder,
+ allowing to call gbinder from Python scripts.
+
+Package: waydroid
+Version: 5.5-desert1
+Architecture: all
+Maintainer: Erfan Abdi <erfangplus@gmail.com>
+Installed-Size: 364
+Depends: python3:any, lxc, python3-gbinder, python3-gi, gir1.2-gtk-3.0, python3-dbus, dbus, polkitd | policykit-1, pipewire-pulse | pulseaudio, iptables, weston
+Recommends: ca-certificates, cage
+Filename: ./waydroid_5.5_desert1_all.deb
+Size: 213854
+MD5sum: e4ba6503a6fbd9fb560107bcfedcfc80
+SHA1: a78e999726a483f3d376266ac67450557a649561
+SHA256: e92fcf0bfca16bd74d9a59eec232e240ce0f86c12961210d864cdce7b024edab
+Section: misc
+Priority: optional
+Description: Android™ application support for XFCE/X11 (DESERT OS)
+ waydroid allows running a separate Android™ environment
+ confined to a LXC container, adapted for X11 via Weston
 
 Package: xdg-desktop-portal
 Version: 5.0-desert
