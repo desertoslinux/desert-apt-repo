@@ -44,12 +44,12 @@ Package: desert-app-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 105
+Installed-Size: 121
 Filename: ./desert-app-plugins_5.5_all.deb
-Size: 23744
-MD5sum: 600b5a95f001f3c72ca7aa38281dd567
-SHA1: 98ef83f9a1feb610c75f57c90fbafb4a9ece381a
-SHA256: c21bc0f567a444f27db6c32d8302458ca1119a80bb5abab3509fb2bf078ab666
+Size: 28120
+MD5sum: 753fd922a01d24370d80a5fcf8f4d62c
+SHA1: ebdb6b83930050386f34e19471d97af6e46486b3
+SHA256: 26e5f1798209714a9c19ac78a4a83f7bf5c857d501adf386373c1b08ce73a0de
 Section: x11
 Priority: optional
 Description: Plugins application launcher for panel XFCE
