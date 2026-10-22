@@ -44,12 +44,12 @@ Package: desert-app-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 170
+Installed-Size: 148
 Filename: ./desert-app-plugins_5.5_all.deb
-Size: 33598
-MD5sum: f6fc624cfa7c85e1afdcf1f541150bbc
-SHA1: 0550ed3c5c7da77b02e070f812a9d56ba4b075f7
-SHA256: 12c080b05146e230f918bbb001b5efc55a5982323612978c7d7e0a6ef871a1c2
+Size: 32498
+MD5sum: 1a8dcfe0ea49d73f51681d547692c7c9
+SHA1: 50b22c40b2448b92135f8fd5ff0b74b359b58441
+SHA256: 33c7b8ab2ad7078b26a886dcd391d6511f09b1f643708eaa893d9997db2b8ef8
 Section: x11
 Priority: optional
 Description: Plugins application launcher for panel XFCE
@@ -177,14 +177,14 @@ Package: desert-control-center-plugins
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 228
+Installed-Size: 368
 Depends: redshift
 Replaces: desert-search
 Filename: ./desert-control-center-plugins_5.5_all.deb
-Size: 51528
-MD5sum: 9989123f8839873b0b53e7f3c9cf7f22
-SHA1: dbc566cc7a98744d0f689275a68f6ec8e78061ac
-SHA256: d2ed220edce122a375b4697b65018b88af9d129b34cb1e94d9896faea2eab76b
+Size: 79202
+MD5sum: c51d363ed9bd05496812779c6e647b5d
+SHA1: 898b0c60f5c01b50e89efbbbce15c8e0601bc84d
+SHA256: 2f0e2a3bcb893878f03b208e31a4af73e8f3a1ffc7b26f8f1430b447028bf9b4
 Section: x11
 Priority: optional
 Description: Control Center panel plugin for XFCE desktop environment
@@ -590,13 +590,13 @@ Package: desert-software
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 387
+Installed-Size: 386
 Depends: python3, python3-gi, python3-apt, gir1.2-gtk-3.0, gir1.2-appstream-1.0, gir1.2-pango-1.0, gir1.2-gdkpixbuf-2.0, flatpak
 Filename: ./desert-software_5.5_all.deb
-Size: 339112
-MD5sum: 52b71ab2d5e935f2a401cf7aaec3d180
-SHA1: 8557dd89b92037a8a66eb6d2bb67a933ada22419
-SHA256: 7be262d44e38b248075f1986ab7dc0dfb493c27f35988c81046d8f30f0cfd2a2
+Size: 338784
+MD5sum: 848802e0cf3505208852a2b1fc6ee6ad
+SHA1: b937428e60de5a26e2ce6a4372f1d9aa96eb1b9f
+SHA256: db75b5631fd8aaf25f16b1ee9094ecb3c59b26f9ab597110b53d08a8d01c156c
 Section: utils
 Priority: optional
 Description: Advanced Software Center for DESERT OS
