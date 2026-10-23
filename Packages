@@ -590,13 +590,13 @@ Package: desert-software
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 386
+Installed-Size: 387
 Depends: python3, python3-gi, python3-apt, gir1.2-gtk-3.0, gir1.2-appstream-1.0, gir1.2-pango-1.0, gir1.2-gdkpixbuf-2.0, flatpak
 Filename: ./desert-software_5.5_all.deb
-Size: 338784
-MD5sum: 848802e0cf3505208852a2b1fc6ee6ad
-SHA1: b937428e60de5a26e2ce6a4372f1d9aa96eb1b9f
-SHA256: db75b5631fd8aaf25f16b1ee9094ecb3c59b26f9ab597110b53d08a8d01c156c
+Size: 339764
+MD5sum: 89160198a6f33b326901aaf66f41c017
+SHA1: c247ac9529d5c6104b0426ed8107ba1354c99431
+SHA256: 96a693802ee5ef4c227dc28f3efe5825805129f076a33e0726d21a4fefb6d11a
 Section: utils
 Priority: optional
 Description: Advanced Software Center for DESERT OS
