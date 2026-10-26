@@ -568,13 +568,13 @@ Package: desert-snapshots
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 95
+Installed-Size: 96
 Depends: btrfs-progs, util-linux, gawk, libgtk-3-0, libglib2.0-0, pkexec, inotify-tools, rsync
 Filename: ./desert-snapshots_5.5_all.deb
-Size: 24612
-MD5sum: 4879e20f3b76ba830580fba6d71b76d8
-SHA1: d30901dc8b78d84d6786bef80f8a869572a60135
-SHA256: 18127037f665f359f3f6959ddbe23bb4ad7cafc7e531e843752494acf283355f
+Size: 24666
+MD5sum: 45aa4b22300ae3b8e45857b3ad983490
+SHA1: 5a1283a35ad260306f712b115f087bdbbc04cb10
+SHA256: 190713ede14c170db01bbfd0c3f57fb8785483589d143f4a51fb284f4b4939fc
 Section: utils
 Priority: optional
 Description: Native system snapshot manager for DESERT OS
