@@ -88,15 +88,20 @@ Package: desert-calculator
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 70
 Depends: python3
 Filename: ./desert-calculator_5.5_all.deb
-Size: 70828
-MD5sum: 49468768fe223bb9cb1d18040cdc7aca
-SHA1: ad222a6d6c72b6712af213bb3955231f4c7b5a05
-SHA256: 4912339c5e51c9755ced0529f7ec21a36fdeb26f51b7aaa061e2c68fbcd56bab
+Size: 20392
+MD5sum: 49b04738375992bda3ba68b113dbff14
+SHA1: 3d480ddd84307ac009747ec39250e46d76acbaf2
+SHA256: 4bc780b7cfca2b55ece6829c908fd0da4a5edcd448d38cc41ee10c657074eead
 Section: x11
 Priority: optional
-Description: Simple calculator.
+Description: Fast and lightweight GTK3 calculator for DESERT OS
+ DESERT Calculator is a native C application featuring both basic
+ and scientific calculation modes. It includes a built-in history tracker,
+ clipboard support, and a modern UI optimized for the DESERT OS Linux
+ desktop environment.
 
 Package: desert-calendar
 Version: 5.5
@@ -403,18 +408,29 @@ Package: desert-lightdm
 Version: 5.5
 Architecture: amd64
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 18068
+Installed-Size: 12487
 Depends: liblightdm-gobject-1-0, python3, python3-gi, python3-pyqt5, pyqt5-dev, python3-pyinotify, libqt5webengine5, python3-pyqt5.qtwebengine, python3-ruamel.yaml, libxcb1, libx11-6, gir1.2-lightdm-1
 Replaces: lightdm-webkit-greeter
 Provides: lightdm-greeter
 Filename: ./desert-lightdm_5.5_amd64.deb
-Size: 4497018
-MD5sum: 3502d10fe0f68af5e849442af8377ea9
-SHA1: 01694dfc255fd36ecb4120712181e491ec1f2351
-SHA256: a21e45f3a668d4e956ad31f6ca11e0ddee15bafac5950dea58702040b91954d9
+Size: 6199722
+MD5sum: c98e83eda24d2440cc19e9265a2868c6
+SHA1: 02e791722694bef455c1bfc9ccdd9447b4193455
+SHA256: 2c85e48fe6626a6f50666beee6077a0b919c31f981ad97aa3f5874147789f969
 Section: x11
 Priority: optional
-Description: Theme LightDM.
+Description: Modern web-based LightDM greeter for DESERT OS
+ desert-lightdm is a customized, visually rich login screen designed
+ specifically for DESERT OS Linux. It utilizes web technologies
+ (HTML, CSS, JavaScript) rendered through PyQt5 WebEngine to provide
+ a seamless and interactive user experience.
+ .
+ Key features include:
+  * Dynamic video background support.
+  * Integrated on-screen keyboard (OSK).
+  * Multi-language localization.
+  * Intuitive session and user management.
+  * Smooth animations and frosted glass UI effects.
 
 Package: desert-menu-plugins
 Version: 5.5
@@ -510,13 +526,13 @@ Package: desert-settings
 Version: 5.5
 Architecture: all
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 14147
+Installed-Size: 14188
 Depends: python3, python3-gi, python3-ephem, libcairo2, libgtk-3-0, libglib2.0-0, plymouth
 Filename: ./desert-settings_5.5_all.deb
-Size: 4962160
-MD5sum: 5087b539771837cbf512199e15a3b755
-SHA1: 292cb9e77c3bbcbee90c32a2a1c5701207b0773e
-SHA256: bc65e43f27aa758d1d6ee043f5dc7ff4f3850f90a52b785db8c742c50956cb6d
+Size: 4972640
+MD5sum: ad17a05ad1bbd05c00fe2d50e5f5cea2
+SHA1: 434282509571e5c6ae3430858e334e303d3740cb
+SHA256: 16afa03e633a99aa35d258147016e6be347ce9b67f70f4ae287c1aa0700d9971
 Section: utils
 Priority: extra
 Description: System settings center for DESERT OS
