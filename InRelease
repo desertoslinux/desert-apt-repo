@@ -5,32 +5,32 @@ Origin: DESERT OS Software Repository
 Label: DESERT OS Software Repository
 Suite: resolute
 Codename: resolute
-Date: Wed, 28 Oct 2026 12:16:10 UTC
+Date: Mon, 02 Nov 2026 07:40:46 UTC
 Architectures: amd64
 Components: main
 Description: Official APT repository for DESERT OS Linux applications
 MD5Sum:
- f6b3076d7bbef8162a761730004a0710 38000 Packages
- 5702cc7e48034979b239a833bd3d639f 13827 Packages.gz
+ 98973a24ee41e814dc9d765829ae3036 38000 Packages
+ 8fbfe0e25b8112d3d46b77969aed981d 13824 Packages.gz
 SHA1:
- 4ccb13dc617ebb42cd94970de33579ced9a60596 38000 Packages
- dd0452c6326067a3d35c1122eadc73414a7a00a0 13827 Packages.gz
+ a9137feeadf1f0b5588784c8380c8936d99d21dc 38000 Packages
+ 9657b367a4c451d92c8e7b9e378b2f44f029ac0b 13824 Packages.gz
 SHA256:
- dfabfa01ccc2833d35ef4ab9226039d60c5ed92bd1bbc19c8fcf586f1e857b0f 38000 Packages
- 5aec96ff6f083472e4c1bd451221bee32cf471a0502d245dcd8699773e051f72 13827 Packages.gz
+ bd7334ad91f4fa1ab8ffce6005ec0527277fc71817c0217dd0f41382130c8f64 38000 Packages
+ 26ee9055d9e8a100bccffae27b90f3aab2dc13b315c6638d618e70eed0b44d5a 13824 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmrh54oACgkQue6rFacx
-3RI4fA//daAiXlyKjjOYZOa9L64Y0Xi81xKmN45SiGy92d719z13eDNzVlpAsSDb
-/iUKLzLxioYg7HKoY5TnbUP0N2Agrh8ipjCgBkwkIoXIZBnQohhpa8o3rNjN+BIl
-EEVfnOeS4tVImeS39cTCgflvU4G2WvvI+Mw9ejcJJ43nxpJAzh0PGqFV5xjlGjFg
-vJmY6tGgIycb7Z5m9/ecI9XJUjigRcHF0ndTIQxcDFh13gOJX6NfnuYl3Nk/ri+B
-B7jB5Gy0/syrVmVSAliTVCzz+Rf1J9xKuetF/wij0Q49KxY0z+u1bqyCddkU8vld
-tOlyQRpTnGKxWYZVib069KfH2ysp/4oO4HF+fpyB+1eWKTulNguvj3/fp5lhCaqJ
-fhfZ0ZVfwxK3cI6rHt8UpfOmwqOfEOv6D8D5m+b6blyOuh20PsrsxIzSU3LYpD4M
-RWjP8OqjOpj/lLfOyTPAQpXF//z8wIOefA67zZBbRDEWJqgzZEze8Oa4os28ehVW
-FEXuiiryfAtP+OxWQwCctkznWWFFoVDSygDz3B16vwiuyq7I2yA+Mk0we9O7aZNQ
-AHlSjhVtXRbKd7CyS5ZwCcUdsLoL2mH+HR2dyG8jPPbrE1zOxoKqwnj+z/P62brS
-HLEadfiH+sWjFhBw9FtObi+yl0ggKkfTfd71oBJWKZBJWgfMekk=
-=py+s
+iQIzBAEBCgAdFiEE+O6Hb01WHwV4xsjtue6rFacx3RIFAmroPn4ACgkQue6rFacx
+3RJtiw//aKrnL8o1ztXKs1B/M2U8ulQaHKw1wVxRhr8c8IkNrKBbkvzrUnsc58Xv
+GBVodD9XEpQ7boA4TJ/O3iw+n3uGu1xB5PGY5kMxwBzup2WxTZ1TVA7fgyvQNWSx
+DgxwnVWG15bwcMSo6FXKcSVBc3Jhsqpfj2mKtCr1/l7t6YmL9qRi3uH8dfxHr6K0
+Jt326wXabgqHWTwwXK7T8FaqMN3YKvtds9lngMd6EGOAeIjA0/t9XXWQ+tShbmMB
+urnWAkYHz8bouaUy936PH195Rv0/4/TPs8ejSpUESrdT0bwo/VSj2XbYyvWbzyDg
+ZF+9gI2DNnC2KT+qy/W4gD5cTqkSQuB2b6iJFlsIui9DZSjsSY52wS+0nmg/qS20
+XSMCB7kJ9eTdWmFk64y/93a/3L7bkI5r72opjJ4Fc+28bV+DcZwUewXKK54wwazU
+KRf4HYvylrmbwJzzcElmg57NgHoYL5LMDcdb7EULxF7Y40OiY/A1wIIyBpTG/uWd
+tYRqxQRsS+60iUrta8pj+LNs2gzXjUOGzuoRBV0GHKKKj46jzpCGmngGZsUQJJ//
+Mzu7Hwc8WSC9n+elD7pOnkOHlg7DYryqXbgtYq/0vGtrBPA/xBEE3ufL8O/NKoWy
+lzgsmGxRP9ZzKKBmqY2n7v/j7m4DYrMNy3x7LeUizG3jBNKhwCE=
+=gvv4
 -----END PGP SIGNATURE-----
