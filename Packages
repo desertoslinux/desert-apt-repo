@@ -1,3 +1,28 @@
+Package: base-files
+Version: 14ubuntu6.5desert5.5.2
+Architecture: amd64
+Essential: yes
+Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
+Installed-Size: 467
+Pre-Depends: awk
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.4.10-10ubuntu3)
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~), ubuntu-server (<< 1.453)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base, usr-is-merged
+Filename: ./base-files_14ubuntu6.5desert5.5.2_amd64.deb
+Size: 111434
+MD5sum: 0a3e07bc0b44e6d83f3502a948ef4570
+SHA1: 6caba25b752ab8bf9d8c9e83f9d94155367ed7b0
+SHA256: 5ae0c4ddb47724c97ecfe6f05ccb6b814d5b83a6b298e8d44330949296b44fe6
+Section: admin
+Priority: required
+Multi-Arch: foreign
+Description: DESERT OS base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a DESERT OS system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on DESERT OS systems.
+
 Package: coreutils-from-uutils
 Version: 9.9.9-desert
 Architecture: all
