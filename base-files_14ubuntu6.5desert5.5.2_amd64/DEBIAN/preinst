@@ -1,0 +1,72 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "install" ] || [ "$1" = "upgrade" ]; then
+
+  if dpkg-divert --list /etc/lsb-release | grep -q "lsb-release.distrib"; then
+    if [ -f /etc/lsb-release ]; then
+      mv /etc/lsb-release /etc/lsb-release.bak
+    fi
+    dpkg-divert --local --quiet --rename --remove /etc/lsb-release
+  fi
+
+  msg=
+  for d in bin lib lib32 lib64 libo32 libx32 sbin; do
+    if [ -L "$DPKG_ROOT/$d" ]; then
+      target=$(readlink "$DPKG_ROOT/$d")
+      if [ "$target" != "usr/$d" ]; then
+        if [ "$d" = lib64 ] && [ "$target" = "usr/lib/x86_64-linux-gnu" ]; then
+          echo "Fixing bad /$d symbolic link created by systemd-nspawn."
+          if [ -d "$DPKG_ROOT/usr/$d" ]; then
+            ln -sf "usr/$d" "$DPKG_ROOT/$d"
+          else
+            rm "$DPKG_ROOT/$d"
+          fi
+        else
+          msg="/$d is a symbolic link and not pointing at usr/$d exactly"
+        fi
+      elif [ ! -d "$DPKG_ROOT/usr/$d" ]; then
+        msg="/$d is a dangling symbolic link"
+      fi
+      msg2="This is an unexpected situation. Cannot proceed with the upgrade"
+    elif [ -d "$DPKG_ROOT/$d" ]; then
+      msg="/$d is a directory, but should be a symbolic link"
+      msg2="Please install the usrmerge package to convert this system to merged-/usr"
+    fi
+    if [ -n "$msg" ]; then
+      cat <<EOF
+
+
+******************************************************************************
+*
+* The base-files package cannot be installed because
+* $msg.
+*
+* $msg2.
+*
+* For more information please read https://wiki.debian.org/UsrMerge.
+*
+******************************************************************************
+
+
+EOF
+      exit 1
+    fi
+  done
+
+  LEGACY_USRMERGE_DIVERSIONS="bin lib lib32 lib64 libo32 lib64 sbin"
+  for d in $LEGACY_USRMERGE_DIVERSIONS; do
+    if [ "$(dpkg-divert --truename /$d)" = "/$d.usr-is-merged" ]; then
+        dpkg-divert --quiet --package base-files --remove --no-rename --divert /$d.usr-is-merged /$d
+        if test -d /$d.usr-is-merged && ! rmdir /$d.usr-is-merged ; then
+            mv --no-target-directory /$d.usr-is-merged /.$d.usr-is-merged
+        fi
+    fi
+  done
+
+  for d in lib32 libo32 libx32; do
+    dpkg-divert --quiet --package base-files --add --no-rename --divert "/.$d.usr-is-merged" "/$d"
+  done
+fi
+
+dpkg-maintscript-helper rm_conffile /etc/default/motd-news 11ubuntu11\~ base-files -- "$@"
