@@ -264,13 +264,13 @@ Package: desert-dynamic-cursor
 Version: 5.5
 Architecture: amd64
 Maintainer: Kernitskiy Yaroslav <yaroslavsadova1@gmail.com>
-Installed-Size: 20
+Installed-Size: 21
 Depends: libx11-6, xfconf
 Filename: ./desert-dynamic-cursor_5.5_all.deb
-Size: 3500
-MD5sum: 4d7487640347c3e2dac9c053ec1552ed
-SHA1: 8091df9643ce1c5fbee50817105cca4af84e60d0
-SHA256: bba59294af8d8cfe751852ed7da441341106247a6d971be9c3d79b844a05b1bf
+Size: 3740
+MD5sum: 1456e927cfadec98bd4bb78d541c6340
+SHA1: aa9272e168be53282f93c14878b93d4f53e1c57b
+SHA256: cb867c37f7b1c27ef57df4910f73e8320bc951f051f38832dc5db4574b8ca788
 Section: x11
 Priority: optional
 Description: Dynamic cursor resizing utility on mouse shake
