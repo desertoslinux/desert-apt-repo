@@ -1,0 +1,19 @@
+{
+  "latest_version": "6.0",
+  "repo_uri": "https://desertoslinux.github.io/desert-apt-repo-6.0/",
+  "upgrader_package": "desert-release-upgrader",
+  "changelog": "DESERT OS 6.0 — all system components and applications updated.",
+  "changelog_de": "DESERT OS 6.0 — alle Systemkomponenten und Anwendungen wurden aktualisiert.",
+  "changelog_es": "DESERT OS 6.0 — todos los componentes del sistema y aplicaciones actualizados.",
+  "changelog_fr": "DESERT OS 6.0 — tous les composants système et applications ont été mis à jour.",
+  "changelog_it": "DESERT OS 6.0 — tutti i componenti di sistema e le applicazioni sono stati aggiornati.",
+  "changelog_ja": "DESERT OS 6.0 — すべてのシステムコンポーネントとアプリケーションが更新されました。",
+  "changelog_nl": "DESERT OS 6.0 — alle systeemcomponenten en applicaties zijn bijgewerkt.",
+  "changelog_pl": "DESERT OS 6.0 — zaktualizowano wszystkie komponenty systemowe i aplikacje.",
+  "changelog_pt": "DESERT OS 6.0 — todos os componentes do sistema e aplicações foram atualizados.",
+  "changelog_pt_BR": "DESERT OS 6.0 — todos os componentes do sistema e aplicativos foram atualizados.",
+  "changelog_ru": "DESERT OS 6.0 — обновлены все системные компоненты и приложения.",
+  "changelog_tr": "DESERT OS 6.0 — tüm sistem bileşenleri ve uygulamalar güncellendi.",
+  "changelog_uk": "DESERT OS 6.0 — оновлено всі системні компоненти та програми.",
+  "changelog_zh_CN": "DESERT OS 6.0 — 所有系统组件和应用程序均已更新。"
+}
